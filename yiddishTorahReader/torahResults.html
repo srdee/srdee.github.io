@@ -10,7 +10,7 @@
 
      <link href="css/bootstrap.min.css" rel="stylesheet">
      <link href="css/custom.css" rel="stylesheet">
-
+   <script src="js/d3.v3.min.js" type="text/javascript"></script>
    <script>
 
    function verseMouseOver(t) {
@@ -50,8 +50,91 @@
     var children = parent.getElementsByTagName("p");
     for(c=0;c<children.length;c++){
       parent.removeChild(children[c]);
+    }
     }  
-   }
+
+    function getEnglishVerseById(t){
+      var id = t.innerHTML;
+      var bookName = id.split("/")[0];
+      var chapNum = id.split("/")[1].split(":")[0];
+      var verseNum = id.split("/")[1].split(":")[1];
+      var bookMap = {
+        "breyshis":{
+         "english": "1",
+         "hebrew": "genesis"
+         },
+        "shmoys": {
+          "english":"2",
+          "hebrew":"exodus"
+        },
+        "vayikro" :{
+          "english":"3",
+          "hebrew":"leviticus"
+        },
+        "bamidber": {
+          "english":"4",
+          "hebrew":"numbers"
+        },
+        "dvorim":{
+          "english":"5",
+          "hebrew":"deuteronomy"
+        }
+      }
+
+      $.ajax({
+        type : 'GET',
+        dataType : 'json',
+        url: 'data/english/' + bookMap[bookName]["english"]+ '.json',
+        success : function(data) {
+            var book = (data);
+           return book["chapters"][chapNum - 1]["verses"][verseNum - 1].text;
+        } 
+    });
+    }
+
+     function getHebrewVerseById(t){
+      var id = t.innerHTML;
+      var bookName = id.split("/")[0];
+      var chapNum = id.split("/")[1].split(":")[0];
+      var verseNum = id.split("/")[1].split(":")[1];
+      var bookMap = {
+        "breyshis":{
+         "english": "1",
+         "hebrew": "genesis"
+         },
+        "shmoys": {
+          "english":"2",
+          "hebrew":"exodus"
+        },
+        "vayikro" :{
+          "english":"3",
+          "hebrew":"leviticus"
+        },
+        "bamidber": {
+          "english":"4",
+          "hebrew":"numbers"
+        },
+        "dvorim":{
+          "english":"5",
+          "hebrew":"deuteronomy"
+        }
+      }
+
+      $.ajax({
+        type : 'GET',
+        dataType : 'json',
+        url: 'data/english/' + bookMap[bookName]["english"]+ '.json',
+        success : function(data) {
+            var book = (data);
+            return book["chapters"][chapNum - 1]["verses"][verseNum - 1].text;
+        } 
+    });
+    }
+
+    function englishVerseOnClick(t){
+
+    }
+   
 
 </script>
 
@@ -86,6 +169,7 @@
     </nav>
 
 <div class="container">
+  <svg><circle cy="100" cx="200" r="30"/></svg>
   <p><strong>Verses below are ordered by the frequency-rank of their vocabulary--the more of the most-frequent words appear in a verse, the higher it is on this list:</strong></p>
 
 			<div class="row"><div class='verse-num col-md-3' ondblclick="idClick(this)" onmouseover="verseNumMouseOver(this)" onmouseout="verseNumMouseOut(this)">bamidber/5:1</div><div class="verse col-md-8" onmouseover="verseMouseOver(this)" onmouseout="verseMouseOut(this)" dir='rtl'> און {dn גאָט}  האָט גערעדט צו משהן, אַזױ צו זאָגן:</div><div class='freq-rank col-md-1'>31</div></div><div class="row"><div class='verse-num col-md-3' ondblclick="idClick(this)" onmouseover="verseNumMouseOver(this)" onmouseout="verseNumMouseOut(this)">bamidber/15:37</div><div class="verse col-md-8" onmouseover="verseMouseOver(this)" onmouseout="verseMouseOut(this)" dir='rtl'> און {dn גאָט} האָט געזאָגט צו משהן, אַזױ צו זאָגן: </div><div class='freq-rank col-md-1'>31</div></div><div class="row"><div class='verse-num col-md-3' ondblclick="idClick(this)" onmouseover="verseNumMouseOver(this)" onmouseout="verseNumMouseOut(this)">bamidber/27:6</div><div class="verse col-md-8" onmouseover="verseMouseOver(this)" onmouseout="verseMouseOut(this)" dir='rtl'> און {dn גאָט} האָט געזאָגט צו משהן, אַזױ צו זאָגן: </div><div class='freq-rank col-md-1'>31</div></div><div class="row"><div class='verse-num col-md-3' ondblclick="idClick(this)" onmouseover="verseNumMouseOver(this)" onmouseout="verseNumMouseOut(this)">bamidber/31:25</div><div class="verse col-md-8" onmouseover="verseMouseOver(this)" onmouseout="verseMouseOut(this)" dir='rtl'> און {dn גאָט} האָט געזאָגט צו משהן, אַזױ צו זאָגן: </div><div class='freq-rank col-md-1'>31</div></div><div class="row"><div class='verse-num col-md-3' ondblclick="idClick(this)" onmouseover="verseNumMouseOver(this)" onmouseout="verseNumMouseOut(this)">shmoys/31:12</div><div class="verse col-md-8" onmouseover="verseMouseOver(this)" onmouseout="verseMouseOut(this)" dir='rtl'> און {dn גאָט} האָט געזאָגט צו משהן, אַזױ צו זאָגן: </div><div class='freq-rank col-md-1'>31</div></div><div class="row"><div class='verse-num col-md-3' ondblclick="idClick(this)" onmouseover="verseNumMouseOver(this)" onmouseout="verseNumMouseOut(this)">vayikro/22:26</div><div class="verse col-md-8" onmouseover="verseMouseOver(this)" onmouseout="verseMouseOut(this)" dir='rtl'> און {dn גאָט} האָט גערעדט צו משהן, אַזױ צו זאָגן: 
