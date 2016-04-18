@@ -1,585 +1,585 @@
-GEO.id,GEO.id2,GEO.display-label,NAICS.id,NAICS.display-label,YEAR.id,ESTAB,EMP,PAYQTR1,PAYANN
-Geographic identifier code,Id2,Geographic area name,2012 NAICS code,Meaning of 2012 NAICS code,Year,Number of establishments,Paid employees for pay period including March 12 (number),"First-quarter payroll ($1,000)","Annual payroll ($1,000)"
-0500000US29055,29055,"Crawford County, Missouri",00,Total for all sectors,2013,529,5410,42602,169640
-0500000US29055,29055,"Crawford County, Missouri",11,"Agriculture, forestry, fishing and hunting",2013,3,a,S,69
-0500000US29055,29055,"Crawford County, Missouri",113,Forestry and logging,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",1133,Logging,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",11331,Logging,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",113310,Logging,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",115,Support activities for agriculture and forestry,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",1151,Support activities for crop production,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",11511,Support activities for crop production,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",115112,"Soil preparation, planting, and cultivating",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",1152,Support activities for animal production,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",11521,Support activities for animal production,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",115210,Support activities for animal production,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",21,"Mining, quarrying, and oil and gas extraction",2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",212,Mining (except oil and gas),2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",2123,Nonmetallic mineral mining and quarrying,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",21231,Stone mining and quarrying,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",212312,Crushed and broken limestone mining and quarrying,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",22,Utilities,2013,3,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",221,Utilities,2013,3,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",2211,"Electric power generation, transmission and distribution",2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",22112,"Electric power transmission, control, and distribution",2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",221121,Electric bulk power transmission and control,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",221122,Electric power distribution,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",2213,"Water, sewage and other systems",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",22131,Water supply and irrigation systems,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",221310,Water supply and irrigation systems,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",23,Construction,2013,56,152,1048,5196
-0500000US29055,29055,"Crawford County, Missouri",236,Construction of buildings,2013,20,b,297,1507
-0500000US29055,29055,"Crawford County, Missouri",2361,Residential building construction,2013,12,a,S,401
-0500000US29055,29055,"Crawford County, Missouri",23611,Residential building construction,2013,12,a,S,401
-0500000US29055,29055,"Crawford County, Missouri",236115,New single-family housing construction (except for-sale builders),2013,4,a,S,188
-0500000US29055,29055,"Crawford County, Missouri",236117,New housing for-sale builders,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",236118,Residential remodelers,2013,7,a,S,140
-0500000US29055,29055,"Crawford County, Missouri",2362,Nonresidential building construction,2013,8,29,217,1106
-0500000US29055,29055,"Crawford County, Missouri",23622,Commercial and institutional building construction,2013,8,29,217,1106
-0500000US29055,29055,"Crawford County, Missouri",236220,Commercial and institutional building construction,2013,8,29,217,1106
-0500000US29055,29055,"Crawford County, Missouri",237,Heavy and civil engineering construction,2013,6,a,68,345
-0500000US29055,29055,"Crawford County, Missouri",2371,Utility system construction,2013,4,a,64,332
-0500000US29055,29055,"Crawford County, Missouri",23711,Water and sewer line and related structures construction,2013,3,a,S,128
-0500000US29055,29055,"Crawford County, Missouri",237110,Water and sewer line and related structures construction,2013,3,a,S,128
-0500000US29055,29055,"Crawford County, Missouri",23713,Power and communication line and related structures construction,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",237130,Power and communication line and related structures construction,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",2372,Land subdivision,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",23721,Land subdivision,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",237210,Land subdivision,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",238,Specialty trade contractors,2013,30,b,683,3344
-0500000US29055,29055,"Crawford County, Missouri",2381,"Foundation, structure, and building exterior contractors",2013,11,b,435,1885
-0500000US29055,29055,"Crawford County, Missouri",23814,Masonry contractors,2013,6,40,383,1580
-0500000US29055,29055,"Crawford County, Missouri",238140,Masonry contractors,2013,6,40,383,1580
-0500000US29055,29055,"Crawford County, Missouri",23816,Roofing contractors,2013,4,a,S,159
-0500000US29055,29055,"Crawford County, Missouri",238160,Roofing contractors,2013,4,a,S,159
-0500000US29055,29055,"Crawford County, Missouri",23819,"Other foundation, structure, and building exterior contractors",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",238190,"Other foundation, structure, and building exterior contractors",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",2382,Building equipment contractors,2013,6,a,95,453
-0500000US29055,29055,"Crawford County, Missouri",23821,Electrical contractors and other wiring installation contractors,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",238210,Electrical contractors and other wiring installation contractors,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",23822,"Plumbing, heating, and air-conditioning contractors",2013,4,a,72,337
-0500000US29055,29055,"Crawford County, Missouri",238220,"Plumbing, heating, and air-conditioning contractors",2013,4,a,72,337
-0500000US29055,29055,"Crawford County, Missouri",2383,Building finishing contractors,2013,5,a,63,367
-0500000US29055,29055,"Crawford County, Missouri",23831,Drywall and insulation contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",238310,Drywall and insulation contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",23832,Painting and wall covering contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",238320,Painting and wall covering contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",23833,Flooring contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",238330,Flooring contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",23835,Finish carpentry contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",238350,Finish carpentry contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",23839,Other building finishing contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",238390,Other building finishing contractors,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",2389,Other specialty trade contractors,2013,8,a,90,639
-0500000US29055,29055,"Crawford County, Missouri",23891,Site preparation contractors,2013,4,7,43,220
-0500000US29055,29055,"Crawford County, Missouri",238910,Site preparation contractors,2013,4,7,43,220
-0500000US29055,29055,"Crawford County, Missouri",23899,All other specialty trade contractors,2013,4,a,S,419
-0500000US29055,29055,"Crawford County, Missouri",238990,All other specialty trade contractors,2013,4,a,S,419
-0500000US29055,29055,"Crawford County, Missouri",31-33,Manufacturing,2013,45,1971,14655,58638
-0500000US29055,29055,"Crawford County, Missouri",311,Food manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3116,Animal slaughtering and processing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",31161,Animal slaughtering and processing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",311611,Animal (except poultry) slaughtering,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",316,Leather and allied product manufacturing,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",3162,Footwear manufacturing,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",31621,Footwear manufacturing,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",316210,Footwear manufacturing,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",321,Wood product manufacturing,2013,12,271,1844,7697
-0500000US29055,29055,"Crawford County, Missouri",3211,Sawmills and wood preservation,2013,7,66,300,1419
-0500000US29055,29055,"Crawford County, Missouri",32111,Sawmills and wood preservation,2013,7,66,300,1419
-0500000US29055,29055,"Crawford County, Missouri",321113,Sawmills,2013,6,b,292,1383
-0500000US29055,29055,"Crawford County, Missouri",321114,Wood preservation,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3219,Other wood product manufacturing,2013,5,205,1544,6278
-0500000US29055,29055,"Crawford County, Missouri",32191,Millwork,2013,3,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",321912,"Cut stock, resawing lumber, and planing",2013,3,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",32192,Wood container and pallet manufacturing,2013,2,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",321920,Wood container and pallet manufacturing,2013,2,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",323,Printing and related support activities,2013,3,832,6264,22941
-0500000US29055,29055,"Crawford County, Missouri",3231,Printing and related support activities,2013,3,832,6264,22941
-0500000US29055,29055,"Crawford County, Missouri",32311,Printing,2013,2,f,D,D
-0500000US29055,29055,"Crawford County, Missouri",323111,Commercial printing (except screen and books),2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",323113,Commercial screen printing,2013,1,f,D,D
-0500000US29055,29055,"Crawford County, Missouri",32312,Support activities for printing,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",323120,Support activities for printing,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",325,Chemical manufacturing,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3251,Basic chemical manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",32519,Other basic organic chemical manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",325194,"Cyclic crude, intermediate, and gum and wood chemical manufacturing",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3255,"Paint, coating, and adhesive manufacturing",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",32551,Paint and coating manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",325510,Paint and coating manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",326,Plastics and rubber products manufacturing,2013,2,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",3261,Plastics product manufacturing,2013,2,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",32619,Other plastics product manufacturing,2013,2,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",326199,All other plastics product manufacturing,2013,2,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",327,Nonmetallic mineral product manufacturing,2013,3,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",3273,Cement and concrete product manufacturing,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",32732,Ready-mix concrete manufacturing,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",327320,Ready-mix concrete manufacturing,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3274,Lime and gypsum product manufacturing,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",32742,Gypsum product manufacturing,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",327420,Gypsum product manufacturing,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",331,Primary metal manufacturing,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",3314,Nonferrous metal (except aluminum) production and processing,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",33142,"Copper rolling, drawing, extruding, and alloying",2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",331420,"Copper rolling, drawing, extruding, and alloying",2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",3315,Foundries,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",33152,Nonferrous metal foundries,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",331523,Nonferrous metal die-casting foundries,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",332,Fabricated metal product manufacturing,2013,12,323,2799,12842
-0500000US29055,29055,"Crawford County, Missouri",3321,Forging and stamping,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",33211,Forging and stamping,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",332111,Iron and steel forging,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3326,Spring and wire product manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",33261,Spring and wire product manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",332618,Other fabricated wire product manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3327,"Machine shops; turned product; and screw, nut, and bolt manufacturing",2013,6,158,1576,7240
-0500000US29055,29055,"Crawford County, Missouri",33271,Machine shops,2013,5,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",332710,Machine shops,2013,5,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",33272,"Turned product and screw, nut, and bolt manufacturing",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",332721,Precision turned product manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3328,"Coating, engraving, heat treating, and allied activities",2013,3,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",33281,"Coating, engraving, heat treating, and allied activities",2013,3,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",332811,Metal heat treating,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",332813,"Electroplating, plating, polishing, anodizing, and coloring",2013,2,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",3329,Other fabricated metal product manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",33291,Metal valve manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",332912,Fluid power valve and hose fitting manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",333,Machinery manufacturing,2013,3,c,858,2718
-0500000US29055,29055,"Crawford County, Missouri",3332,Industrial machinery manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",33324,Industrial machinery manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",333249,Other industrial machinery manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3334,"Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing",2013,1,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",33341,"Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing",2013,1,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",333415,Air-conditioning and warm air heating equipment and commercial and industrial refrigeration equipment manufacturing,2013,1,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",3335,Metalworking machinery manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",33351,Metalworking machinery manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",333514,"Special die and tool, die set, jig, and fixture manufacturing",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",334,Computer and electronic product manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3344,Semiconductor and other electronic component manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",33441,Semiconductor and other electronic component manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",334416,"Capacitor, resistor, coil, transformer, and other inductor manufacturing",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",336,Transportation equipment manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3364,Aerospace product and parts manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",33641,Aerospace product and parts manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",336413,Other aircraft parts and auxiliary equipment manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",337,Furniture and related product manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",3371,Household and institutional furniture and kitchen cabinet manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",33711,Wood kitchen cabinet and countertop manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",337110,Wood kitchen cabinet and countertop manufacturing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42,Wholesale trade,2013,16,141,1496,6389
-0500000US29055,29055,"Crawford County, Missouri",423,"Merchant wholesalers, durable goods",2013,10,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",4231,Motor vehicle and motor vehicle parts and supplies merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42313,Tire and tube merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",423130,Tire and tube merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4234,Professional and commercial equipment and supplies merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42345,"Medical, dental, and hospital equipment and supplies merchant wholesalers",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",423450,"Medical, dental, and hospital equipment and supplies merchant wholesalers",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4235,Metal and mineral (except petroleum) merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42351,Metal service centers and other metal merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",423510,Metal service centers and other metal merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4237,"Hardware, plumbing and heating equipment and supplies merchant wholesalers",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42371,Hardware merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",423710,Hardware merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4238,"Machinery, equipment, and supplies merchant wholesalers",2013,4,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",42381,Construction and mining (except oil well) machinery and equipment merchant wholesalers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",423810,Construction and mining (except oil well) machinery and equipment merchant wholesalers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42382,Farm and garden machinery and equipment merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",423820,Farm and garden machinery and equipment merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42383,Industrial machinery and equipment merchant wholesalers,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",423830,Industrial machinery and equipment merchant wholesalers,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",4239,Miscellaneous durable goods merchant wholesalers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42393,Recyclable material merchant wholesalers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",423930,Recyclable material merchant wholesalers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",424,"Merchant wholesalers, nondurable goods",2013,4,57,719,3377
-0500000US29055,29055,"Crawford County, Missouri",4244,Grocery and related product merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42445,Confectionery merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",424450,Confectionery merchant wholesalers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4246,Chemical and allied products merchant wholesalers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",42461,Plastics materials and basic forms and shapes merchant wholesalers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",424610,Plastics materials and basic forms and shapes merchant wholesalers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",4248,"Beer, wine, and distilled alcoholic beverage merchant wholesalers",2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",42481,Beer and ale merchant wholesalers,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",424810,Beer and ale merchant wholesalers,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",425,Wholesale electronic markets and agents and brokers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4251,Wholesale electronic markets and agents and brokers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",42512,Wholesale trade agents and brokers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",425120,Wholesale trade agents and brokers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",44-45,Retail trade,2013,80,624,3545,14736
-0500000US29055,29055,"Crawford County, Missouri",441,Motor vehicle and parts dealers,2013,19,b,636,2799
-0500000US29055,29055,"Crawford County, Missouri",4411,Automobile dealers,2013,6,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",44111,New car dealers,2013,4,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",441110,New car dealers,2013,4,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",44112,Used car dealers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",441120,Used car dealers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4412,Other motor vehicle dealers,2013,4,48,385,1730
-0500000US29055,29055,"Crawford County, Missouri",44121,Recreational vehicle dealers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",441210,Recreational vehicle dealers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",44122,"Motorcycle, boat, and other motor vehicle dealers",2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",441228,"Motorcycle, ATV, and all other motor vehicle dealers",2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",4413,"Automotive parts, accessories, and tire stores",2013,9,a,119,512
-0500000US29055,29055,"Crawford County, Missouri",44131,Automotive parts and accessories stores,2013,3,a,102,442
-0500000US29055,29055,"Crawford County, Missouri",441310,Automotive parts and accessories stores,2013,3,a,102,442
-0500000US29055,29055,"Crawford County, Missouri",44132,Tire dealers,2013,6,4,17,70
-0500000US29055,29055,"Crawford County, Missouri",441320,Tire dealers,2013,6,4,17,70
-0500000US29055,29055,"Crawford County, Missouri",443,Electronics and appliance stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4431,Electronics and appliance stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",44314,Electronics and appliance stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",443142,Electronics stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",444,Building material and garden equipment and supplies dealers,2013,12,92,583,2503
-0500000US29055,29055,"Crawford County, Missouri",4441,Building material and supplies dealers,2013,9,84,556,2388
-0500000US29055,29055,"Crawford County, Missouri",44411,Home centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",444110,Home centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",44413,Hardware stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",444130,Hardware stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",44419,Other building material dealers,2013,7,75,498,2152
-0500000US29055,29055,"Crawford County, Missouri",444190,Other building material dealers,2013,7,75,498,2152
-0500000US29055,29055,"Crawford County, Missouri",4442,Lawn and garden equipment and supplies stores,2013,3,a,27,115
-0500000US29055,29055,"Crawford County, Missouri",44422,"Nursery, garden center, and farm supply stores",2013,3,a,27,115
-0500000US29055,29055,"Crawford County, Missouri",444220,"Nursery, garden center, and farm supply stores",2013,3,a,27,115
-0500000US29055,29055,"Crawford County, Missouri",445,Food and beverage stores,2013,8,124,456,2049
-0500000US29055,29055,"Crawford County, Missouri",4451,Grocery stores,2013,4,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",44511,Supermarkets and other grocery (except convenience) stores,2013,4,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",445110,Supermarkets and other grocery (except convenience) stores,2013,4,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",4452,Specialty food stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",44521,Meat markets,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",445210,Meat markets,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4453,"Beer, wine, and liquor stores",2013,3,9,33,131
-0500000US29055,29055,"Crawford County, Missouri",44531,"Beer, wine, and liquor stores",2013,3,9,33,131
-0500000US29055,29055,"Crawford County, Missouri",445310,"Beer, wine, and liquor stores",2013,3,9,33,131
-0500000US29055,29055,"Crawford County, Missouri",446,Health and personal care stores,2013,8,54,364,1503
-0500000US29055,29055,"Crawford County, Missouri",4461,Health and personal care stores,2013,8,54,364,1503
-0500000US29055,29055,"Crawford County, Missouri",44611,Pharmacies and drug stores,2013,4,38,251,1097
-0500000US29055,29055,"Crawford County, Missouri",446110,Pharmacies and drug stores,2013,4,38,251,1097
-0500000US29055,29055,"Crawford County, Missouri",44619,Other health and personal care stores,2013,4,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",446191,Food (health) supplement stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",446199,All other health and personal care stores,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",447,Gasoline stations,2013,14,125,582,2411
-0500000US29055,29055,"Crawford County, Missouri",4471,Gasoline stations,2013,14,125,582,2411
-0500000US29055,29055,"Crawford County, Missouri",44711,Gasoline stations with convenience stores,2013,11,108,508,2101
-0500000US29055,29055,"Crawford County, Missouri",447110,Gasoline stations with convenience stores,2013,11,108,508,2101
-0500000US29055,29055,"Crawford County, Missouri",44719,Other gasoline stations,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",447190,Other gasoline stations,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",448,Clothing and clothing accessories stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4482,Shoe stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",44821,Shoe stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",448210,Shoe stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",452,General merchandise stores,2013,4,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",4521,Department stores,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",45211,Department stores,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",452112,Discount department stores,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",4529,Other general merchandise stores,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",45299,All other general merchandise stores,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",452990,All other general merchandise stores,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",453,Miscellaneous store retailers,2013,8,a,S,74
-0500000US29055,29055,"Crawford County, Missouri",4531,Florists,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",45311,Florists,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",453110,Florists,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4533,Used merchandise stores,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",45331,Used merchandise stores,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",453310,Used merchandise stores,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4539,Other miscellaneous store retailers,2013,4,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",45391,Pet and pet supplies stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",453910,Pet and pet supplies stores,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",45392,Art dealers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",453920,Art dealers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",45399,All other miscellaneous store retailers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",453998,All other miscellaneous store retailers (except tobacco stores),2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",454,Nonstore retailers,2013,5,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",4541,Electronic shopping and mail-order houses,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",45411,Electronic shopping and mail-order houses,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",454113,Mail-order houses,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4543,Direct selling establishments,2013,4,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",45431,Fuel dealers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",454310,Fuel dealers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",45439,Other direct selling establishments,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",454390,Other direct selling establishments,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",48-49,Transportation and warehousing,2013,18,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",484,Truck transportation,2013,13,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",4841,General freight trucking,2013,4,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",48411,"General freight trucking, local",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",484110,"General freight trucking, local",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",48412,"General freight trucking, long-distance",2013,3,3,S,51
-0500000US29055,29055,"Crawford County, Missouri",484121,"General freight trucking, long-distance, truckload",2013,3,3,S,51
-0500000US29055,29055,"Crawford County, Missouri",4842,Specialized freight trucking,2013,9,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",48422,"Specialized freight (except used goods) trucking, local",2013,5,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",484220,"Specialized freight (except used goods) trucking, local",2013,5,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",48423,"Specialized freight (except used goods) trucking, long-distance",2013,4,19,159,786
-0500000US29055,29055,"Crawford County, Missouri",484230,"Specialized freight (except used goods) trucking, long-distance",2013,4,19,159,786
-0500000US29055,29055,"Crawford County, Missouri",485,Transit and ground passenger transportation,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4859,Other transit and ground passenger transportation,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",48599,Other transit and ground passenger transportation,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",485991,Special needs transportation,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",488,Support activities for transportation,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4884,Support activities for road transportation,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",48841,Motor vehicle towing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",488410,Motor vehicle towing,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",493,Warehousing and storage,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",4931,Warehousing and storage,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",49311,General warehousing and storage,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",493110,General warehousing and storage,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",49319,Other warehousing and storage,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",493190,Other warehousing and storage,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",51,Information,2013,4,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",511,Publishing industries (except internet),2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",5111,"Newspaper, periodical, book, and directory publishers",2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",51111,Newspaper publishers,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",511110,Newspaper publishers,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",517,Telecommunications,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",5171,Wired telecommunications carriers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",51711,Wired telecommunications carriers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",517110,Wired telecommunications carriers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",518,"Data processing, hosting, and related services",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5182,"Data processing, hosting, and related services",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",51821,"Data processing, hosting, and related services",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",518210,"Data processing, hosting, and related services",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",52,Finance and insurance,2013,24,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",522,Credit intermediation and related activities,2013,11,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",5221,Depository credit intermediation,2013,8,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",52211,Commercial banking,2013,8,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",522110,Commercial banking,2013,8,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",5223,Activities related to credit intermediation,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",52232,"Financial transactions processing, reserve, and clearinghouse activities",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",522320,"Financial transactions processing, reserve, and clearinghouse activities",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",52239,Other activities related to credit intermediation,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",522390,Other activities related to credit intermediation,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",523,"Securities, commodity contracts, and other financial investments and related activities",2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5231,Securities and commodity contracts intermediation and brokerage,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",52312,Securities brokerage,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",523120,Securities brokerage,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5239,Other financial investment activities,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",52399,All other financial investment activities,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",523991,"Trust, fiduciary, and custody activities",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",524,Insurance carriers and related activities,2013,9,10,51,277
-0500000US29055,29055,"Crawford County, Missouri",5242,"Agencies, brokerages, and other insurance related activities",2013,9,10,51,277
-0500000US29055,29055,"Crawford County, Missouri",52421,Insurance agencies and brokerages,2013,9,10,51,277
-0500000US29055,29055,"Crawford County, Missouri",524210,Insurance agencies and brokerages,2013,9,10,51,277
-0500000US29055,29055,"Crawford County, Missouri",525,"Funds, trusts, and other financial vehicles",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5259,Other investment pools and funds,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",52599,Other financial vehicles,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",525990,Other financial vehicles,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",53,Real estate and rental and leasing,2013,20,87,262,2097
-0500000US29055,29055,"Crawford County, Missouri",531,Real estate,2013,11,38,56,200
-0500000US29055,29055,"Crawford County, Missouri",5311,Lessors of real estate,2013,6,a,30,122
-0500000US29055,29055,"Crawford County, Missouri",53111,Lessors of residential buildings and dwellings,2013,6,a,30,122
-0500000US29055,29055,"Crawford County, Missouri",531110,Lessors of residential buildings and dwellings,2013,6,a,30,122
-0500000US29055,29055,"Crawford County, Missouri",5312,Offices of real estate agents and brokers,2013,3,26,21,60
-0500000US29055,29055,"Crawford County, Missouri",53121,Offices of real estate agents and brokers,2013,3,26,21,60
-0500000US29055,29055,"Crawford County, Missouri",531210,Offices of real estate agents and brokers,2013,3,26,21,60
-0500000US29055,29055,"Crawford County, Missouri",5313,Activities related to real estate,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",53132,Offices of real estate appraisers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",531320,Offices of real estate appraisers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",53139,Other activities related to real estate,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",531390,Other activities related to real estate,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",532,Rental and leasing services,2013,9,49,206,1897
-0500000US29055,29055,"Crawford County, Missouri",5322,Consumer goods rental,2013,8,37,111,1431
-0500000US29055,29055,"Crawford County, Missouri",53223,Video tape and disc rental,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",532230,Video tape and disc rental,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",53229,Other consumer goods rental,2013,7,37,111,1429
-0500000US29055,29055,"Crawford County, Missouri",532292,Recreational goods rental,2013,6,33,81,1319
-0500000US29055,29055,"Crawford County, Missouri",532299,All other consumer goods rental,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5323,General rental centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",53231,General rental centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",532310,General rental centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",54,"Professional, scientific, and technical services",2013,27,133,626,2949
-0500000US29055,29055,"Crawford County, Missouri",541,"Professional, scientific, and technical services",2013,27,133,626,2949
-0500000US29055,29055,"Crawford County, Missouri",5411,Legal services,2013,13,36,183,897
-0500000US29055,29055,"Crawford County, Missouri",54111,Offices of lawyers,2013,10,b,112,654
-0500000US29055,29055,"Crawford County, Missouri",541110,Offices of lawyers,2013,10,b,112,654
-0500000US29055,29055,"Crawford County, Missouri",54119,Other legal services,2013,3,a,S,243
-0500000US29055,29055,"Crawford County, Missouri",541191,Title abstract and settlement offices,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",541199,All other legal services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5412,"Accounting, tax preparation, bookkeeping, and payroll services",2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",54121,"Accounting, tax preparation, bookkeeping, and payroll services",2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",541211,Offices of certified public accountants,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",541213,Tax preparation services,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5413,"Architectural, engineering, and related services",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",54137,Surveying and mapping (except geophysical) services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",541370,Surveying and mapping (except geophysical) services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5415,Computer systems design and related services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",54151,Computer systems design and related services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",541512,Computer systems design services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5416,"Management, scientific, and technical consulting services",2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",54161,Management consulting services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",541613,Marketing consulting services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",54169,Other scientific and technical consulting services,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",541690,Other scientific and technical consulting services,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5418,"Advertising, public relations, and related services",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",54185,Outdoor advertising,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",541850,Outdoor advertising,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5419,"Other professional, scientific, and technical services",2013,5,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",54191,Marketing research and public opinion polling,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",541910,Marketing research and public opinion polling,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",54194,Veterinary services,2013,3,16,S,417
-0500000US29055,29055,"Crawford County, Missouri",541940,Veterinary services,2013,3,16,S,417
-0500000US29055,29055,"Crawford County, Missouri",54199,"All other professional, scientific, and technical services",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",541990,"All other professional, scientific, and technical services",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",55,Management of companies and enterprises,2013,5,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",551,Management of companies and enterprises,2013,5,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",5511,Management of companies and enterprises,2013,5,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",55111,Management of companies and enterprises,2013,5,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",551111,Offices of bank holding companies,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",551114,"Corporate, subsidiary, and regional managing offices",2013,4,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",56,Administrative and support and waste management and remediation services,2013,21,b,528,2903
-0500000US29055,29055,"Crawford County, Missouri",561,Administrative and support services,2013,19,b,208,1138
-0500000US29055,29055,"Crawford County, Missouri",5615,Travel arrangement and reservation services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",56159,Other travel arrangement and reservation services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",561591,Convention and visitors bureaus,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",5617,Services to buildings and dwellings,2013,15,b,183,1036
-0500000US29055,29055,"Crawford County, Missouri",56172,Janitorial services,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",561720,Janitorial services,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",56173,Landscaping services,2013,12,b,124,748
-0500000US29055,29055,"Crawford County, Missouri",561730,Landscaping services,2013,12,b,124,748
-0500000US29055,29055,"Crawford County, Missouri",5619,Other support services,2013,3,7,20,81
-0500000US29055,29055,"Crawford County, Missouri",56199,All other support services,2013,3,7,20,81
-0500000US29055,29055,"Crawford County, Missouri",561990,All other support services,2013,3,7,20,81
-0500000US29055,29055,"Crawford County, Missouri",562,Waste management and remediation services,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",5622,Waste treatment and disposal,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",56221,Waste treatment and disposal,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",562212,Solid waste landfill,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",5629,Remediation and other waste management services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",56299,All other waste management services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",562991,Septic tank and related services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",61,Educational services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",611,Educational services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",6115,Technical and trade schools,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",61151,Technical and trade schools,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",611519,Other technical and trade schools,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",62,Health care and social assistance,2013,86,878,S,31061
-0500000US29055,29055,"Crawford County, Missouri",621,Ambulatory health care services,2013,27,c,D,D
-0500000US29055,29055,"Crawford County, Missouri",6211,Offices of physicians,2013,7,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",62111,Offices of physicians,2013,7,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",621111,Offices of physicians (except mental health specialists),2013,7,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",6212,Offices of dentists,2013,3,15,93,400
-0500000US29055,29055,"Crawford County, Missouri",62121,Offices of dentists,2013,3,15,93,400
-0500000US29055,29055,"Crawford County, Missouri",621210,Offices of dentists,2013,3,15,93,400
-0500000US29055,29055,"Crawford County, Missouri",6213,Offices of other health practitioners,2013,8,a,S,668
-0500000US29055,29055,"Crawford County, Missouri",62131,Offices of chiropractors,2013,6,a,70,302
-0500000US29055,29055,"Crawford County, Missouri",621310,Offices of chiropractors,2013,6,a,70,302
-0500000US29055,29055,"Crawford County, Missouri",62132,Offices of optometrists,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",621320,Offices of optometrists,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",62134,"Offices of physical, occupational and speech therapists, and audiologists",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",621340,"Offices of physical, occupational and speech therapists, and audiologists",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",6214,Outpatient care centers,2013,7,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",62141,Family planning centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",621410,Family planning centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",62142,Outpatient mental health and substance abuse centers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",621420,Outpatient mental health and substance abuse centers,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",62149,Other outpatient care centers,2013,4,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",621492,Kidney dialysis centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",621493,Freestanding ambulatory surgical and emergency centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",621498,All other outpatient care centers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",6215,Medical and diagnostic laboratories,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",62151,Medical and diagnostic laboratories,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",621512,Diagnostic imaging centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",6216,Home health care services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",62161,Home health care services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",621610,Home health care services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",622,Hospitals,2013,1,e,D,D
-0500000US29055,29055,"Crawford County, Missouri",6221,General medical and surgical hospitals,2013,1,e,D,D
-0500000US29055,29055,"Crawford County, Missouri",62211,General medical and surgical hospitals,2013,1,e,D,D
-0500000US29055,29055,"Crawford County, Missouri",622110,General medical and surgical hospitals,2013,1,e,D,D
-0500000US29055,29055,"Crawford County, Missouri",623,Nursing and residential care facilities,2013,10,299,1308,5855
-0500000US29055,29055,"Crawford County, Missouri",6231,Nursing care facilities (skilled nursing facilities),2013,6,269,1180,5292
-0500000US29055,29055,"Crawford County, Missouri",62311,Nursing care facilities (skilled nursing facilities),2013,6,269,1180,5292
-0500000US29055,29055,"Crawford County, Missouri",623110,Nursing care facilities (skilled nursing facilities),2013,6,269,1180,5292
-0500000US29055,29055,"Crawford County, Missouri",6233,Continuing care retirement communities and assisted living facilities for the elderly,2013,4,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",62331,Continuing care retirement communities and assisted living facilities for the elderly,2013,4,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",623311,Continuing care retirement communities,2013,1,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",623312,Assisted living facilities for the elderly,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",624,Social assistance,2013,48,106,294,1044
-0500000US29055,29055,"Crawford County, Missouri",6241,Individual and family services,2013,39,b,114,390
-0500000US29055,29055,"Crawford County, Missouri",62411,Child and youth services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",624110,Child and youth services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",62412,Services for the elderly and persons with disabilities,2013,32,49,110,375
-0500000US29055,29055,"Crawford County, Missouri",624120,Services for the elderly and persons with disabilities,2013,32,49,110,375
-0500000US29055,29055,"Crawford County, Missouri",62419,Other individual and family services,2013,6,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",624190,Other individual and family services,2013,6,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",6242,"Community food and housing, and emergency and other relief services",2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",62421,Community food services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",624210,Community food services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",62423,Emergency and other relief services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",624230,Emergency and other relief services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",6244,Child day care services,2013,7,49,171,604
-0500000US29055,29055,"Crawford County, Missouri",62441,Child day care services,2013,7,49,171,604
-0500000US29055,29055,"Crawford County, Missouri",624410,Child day care services,2013,7,49,171,604
-0500000US29055,29055,"Crawford County, Missouri",71,"Arts, entertainment, and recreation",2013,8,56,209,960
-0500000US29055,29055,"Crawford County, Missouri",711,"Performing arts, spectator sports, and related industries",2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",7113,"Promoters of performing arts, sports, and similar events",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",71132,"Promoters of performing arts, sports, and similar events without facilities",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",711320,"Promoters of performing arts, sports, and similar events without facilities",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",7115,"Independent artists, writers, and performers",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",71151,"Independent artists, writers, and performers",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",711510,"Independent artists, writers, and performers",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",713,"Amusement, gambling, and recreation industries",2013,6,41,193,835
-0500000US29055,29055,"Crawford County, Missouri",7139,Other amusement and recreation industries,2013,6,41,193,835
-0500000US29055,29055,"Crawford County, Missouri",71391,Golf courses and country clubs,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",713910,Golf courses and country clubs,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",71394,Fitness and recreational sports centers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",713940,Fitness and recreational sports centers,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",71395,Bowling centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",713950,Bowling centers,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",71399,All other amusement and recreation industries,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",713990,All other amusement and recreation industries,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",72,Accommodation and food services,2013,58,483,1324,7291
-0500000US29055,29055,"Crawford County, Missouri",721,Accommodation,2013,17,66,223,2148
-0500000US29055,29055,"Crawford County, Missouri",7211,Traveler accommodation,2013,9,b,S,1229
-0500000US29055,29055,"Crawford County, Missouri",72111,Hotels (except casino hotels) and motels,2013,6,23,75,640
-0500000US29055,29055,"Crawford County, Missouri",721110,Hotels (except casino hotels) and motels,2013,6,23,75,640
-0500000US29055,29055,"Crawford County, Missouri",72119,Other traveler accommodation,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",721199,All other traveler accommodation,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",7212,RV (recreational vehicle) parks and recreational camps,2013,7,23,63,908
-0500000US29055,29055,"Crawford County, Missouri",72121,RV (recreational vehicle) parks and recreational camps,2013,7,23,63,908
-0500000US29055,29055,"Crawford County, Missouri",721211,RV (recreational vehicle) parks and campgrounds,2013,5,21,61,816
-0500000US29055,29055,"Crawford County, Missouri",721214,Recreational and vacation camps (except campgrounds),2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",7213,Rooming and boarding houses,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",72131,Rooming and boarding houses,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",721310,Rooming and boarding houses,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",722,Food services and drinking places,2013,41,417,1101,5143
-0500000US29055,29055,"Crawford County, Missouri",7223,Special food services,2013,3,28,77,259
-0500000US29055,29055,"Crawford County, Missouri",72231,Food service contractors,2013,3,28,77,259
-0500000US29055,29055,"Crawford County, Missouri",722310,Food service contractors,2013,3,28,77,259
-0500000US29055,29055,"Crawford County, Missouri",7224,Drinking places (alcoholic beverages),2013,3,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",72241,Drinking places (alcoholic beverages),2013,3,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",722410,Drinking places (alcoholic beverages),2013,3,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",7225,Restaurants and other eating places,2013,35,362,924,4510
-0500000US29055,29055,"Crawford County, Missouri",72251,Restaurants and other eating places,2013,35,362,924,4510
-0500000US29055,29055,"Crawford County, Missouri",722511,Full-service restaurants,2013,21,225,600,2667
-0500000US29055,29055,"Crawford County, Missouri",722513,Limited-service restaurants,2013,11,135,323,1682
-0500000US29055,29055,"Crawford County, Missouri",722515,Snack and nonalcoholic beverage bars,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",81,Other services (except public administration),2013,48,167,675,2930
-0500000US29055,29055,"Crawford County, Missouri",811,Repair and maintenance,2013,17,73,397,1803
-0500000US29055,29055,"Crawford County, Missouri",8111,Automotive repair and maintenance,2013,13,63,338,1538
-0500000US29055,29055,"Crawford County, Missouri",81111,Automotive mechanical and electrical repair and maintenance,2013,5,22,106,520
-0500000US29055,29055,"Crawford County, Missouri",811111,General automotive repair,2013,4,b,99,491
-0500000US29055,29055,"Crawford County, Missouri",811112,Automotive exhaust system repair,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",81112,"Automotive body, paint, interior, and glass repair",2013,6,a,120,544
-0500000US29055,29055,"Crawford County, Missouri",811121,"Automotive body, paint, and interior repair and maintenance",2013,6,a,120,544
-0500000US29055,29055,"Crawford County, Missouri",81119,Other automotive repair and maintenance,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",811192,Car washes,2013,2,b,D,D
-0500000US29055,29055,"Crawford County, Missouri",8113,Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,2013,3,a,S,221
-0500000US29055,29055,"Crawford County, Missouri",81131,Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,2013,3,a,S,221
-0500000US29055,29055,"Crawford County, Missouri",811310,Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,2013,3,a,S,221
-0500000US29055,29055,"Crawford County, Missouri",8114,Personal and household goods repair and maintenance,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",81141,Home and garden equipment and appliance repair and maintenance,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",811412,Appliance repair and maintenance,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",812,Personal and laundry services,2013,5,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",8121,Personal care services,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",81211,"Hair, nail, and skin care services",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",812112,Beauty salons,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",8122,Death care services,2013,4,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",81221,Funeral homes and funeral services,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",812210,Funeral homes and funeral services,2013,3,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",81222,Cemeteries and crematories,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",812220,Cemeteries and crematories,2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",813,"Religious, grantmaking, civic, professional, and similar organizations",2013,26,79,243,1005
-0500000US29055,29055,"Crawford County, Missouri",8131,Religious organizations,2013,23,62,200,802
-0500000US29055,29055,"Crawford County, Missouri",81311,Religious organizations,2013,23,62,200,802
-0500000US29055,29055,"Crawford County, Missouri",813110,Religious organizations,2013,23,62,200,802
-0500000US29055,29055,"Crawford County, Missouri",8134,Civic and social organizations,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",81341,Civic and social organizations,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",813410,Civic and social organizations,2013,2,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",8139,"Business, professional, labor, political, and similar organizations",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",81399,"Other similar organizations (except business, professional, labor, and political organizations)",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",813990,"Other similar organizations (except business, professional, labor, and political organizations)",2013,1,a,D,D
-0500000US29055,29055,"Crawford County, Missouri",99,Industries not classified,2013,4,a,D,D
+NAICS.display-label,ESTAB,,,
+Meaning of 2012 NAICS code,Number of establishments,,,
+Total for all sectors,529,,Forestry and logging,9
+"Agriculture, forestry, fishing and hunting",3,,"Construction, contracting, building and housing-related",280
+Forestry and logging,1,,"Sawmills, lumber and wood-products related",48
+Logging,1,,Other,192
+Logging,1,,,
+Logging,1,,,
+Support activities for agriculture and forestry,2,,,
+Support activities for crop production,1,,Forestry and logging,9
+Support activities for crop production,1,,"Construction, contracting, building and housing-related",280
+"Soil preparation, planting, and cultivating",1,,"Sawmills, lumber and wood-products related",48
+Support activities for animal production,1,,Other,192
+Support activities for animal production,1,,,
+Support activities for animal production,1,,,
+"Mining, quarrying, and oil and gas extraction",2,,,
+Mining (except oil and gas),2,,,
+Nonmetallic mineral mining and quarrying,2,,,
+Stone mining and quarrying,2,,,
+Crushed and broken limestone mining and quarrying,2,,,
+Utilities,3,,,
+Utilities,3,,,
+"Electric power generation, transmission and distribution",2,,,
+"Electric power transmission, control, and distribution",2,,,
+Electric bulk power transmission and control,1,,,
+Electric power distribution,1,,,
+"Water, sewage and other systems",1,,,
+Water supply and irrigation systems,1,,,
+Water supply and irrigation systems,1,,,
+Construction,56,,,
+Construction of buildings,20,,,
+Residential building construction,12,,,
+Residential building construction,12,,,
+New single-family housing construction (except for-sale builders),4,,,
+New housing for-sale builders,1,,,
+Residential remodelers,7,,,
+Nonresidential building construction,8,,,
+Commercial and institutional building construction,8,,,
+Commercial and institutional building construction,8,,,
+Heavy and civil engineering construction,6,,,
+Utility system construction,4,,,
+Water and sewer line and related structures construction,3,,,
+Water and sewer line and related structures construction,3,,,
+Power and communication line and related structures construction,1,,,
+Power and communication line and related structures construction,1,,,
+Land subdivision,2,,,
+Land subdivision,2,,,
+Land subdivision,2,,,
+Specialty trade contractors,30,,,
+"Foundation, structure, and building exterior contractors",11,,,
+Masonry contractors,6,,,
+Masonry contractors,6,,,
+Roofing contractors,4,,,
+Roofing contractors,4,,,
+"Other foundation, structure, and building exterior contractors",1,,,
+"Other foundation, structure, and building exterior contractors",1,,,
+Building equipment contractors,6,,,
+Electrical contractors and other wiring installation contractors,2,,,
+Electrical contractors and other wiring installation contractors,2,,,
+"Plumbing, heating, and air-conditioning contractors",4,,,
+"Plumbing, heating, and air-conditioning contractors",4,,,
+Building finishing contractors,5,,,
+Drywall and insulation contractors,1,,,
+Drywall and insulation contractors,1,,,
+Painting and wall covering contractors,1,,,
+Painting and wall covering contractors,1,,,
+Flooring contractors,1,,,
+Flooring contractors,1,,,
+Finish carpentry contractors,1,,,
+Finish carpentry contractors,1,,,
+Other building finishing contractors,1,,,
+Other building finishing contractors,1,,,
+Other specialty trade contractors,8,,,
+Site preparation contractors,4,,,
+Site preparation contractors,4,,,
+All other specialty trade contractors,4,,,
+All other specialty trade contractors,4,,,
+Manufacturing,45,,,
+Food manufacturing,1,,,
+Animal slaughtering and processing,1,,,
+Animal slaughtering and processing,1,,,
+Animal (except poultry) slaughtering,1,,,
+Leather and allied product manufacturing,2,,,
+Footwear manufacturing,2,,,
+Footwear manufacturing,2,,,
+Footwear manufacturing,2,,,
+Wood product manufacturing,12,,,
+Sawmills and wood preservation,7,,,
+Sawmills and wood preservation,7,,,
+Sawmills,6,,,
+Wood preservation,1,,,
+Other wood product manufacturing,5,,,
+Millwork,3,,,
+"Cut stock, resawing lumber, and planing",3,,,
+Wood container and pallet manufacturing,2,,,
+Wood container and pallet manufacturing,2,,,
+Printing and related support activities,3,,,
+Printing and related support activities,3,,,
+Printing,2,,,
+Commercial printing (except screen and books),1,,,
+Commercial screen printing,1,,,
+Support activities for printing,1,,,
+Support activities for printing,1,,,
+Chemical manufacturing,2,,,
+Basic chemical manufacturing,1,,,
+Other basic organic chemical manufacturing,1,,,
+"Cyclic crude, intermediate, and gum and wood chemical manufacturing",1,,,
+"Paint, coating, and adhesive manufacturing",1,,,
+Paint and coating manufacturing,1,,,
+Paint and coating manufacturing,1,,,
+Plastics and rubber products manufacturing,2,,,
+Plastics product manufacturing,2,,,
+Other plastics product manufacturing,2,,,
+All other plastics product manufacturing,2,,,
+Nonmetallic mineral product manufacturing,3,,,
+Cement and concrete product manufacturing,2,,,
+Ready-mix concrete manufacturing,2,,,
+Ready-mix concrete manufacturing,2,,,
+Lime and gypsum product manufacturing,1,,,
+Gypsum product manufacturing,1,,,
+Gypsum product manufacturing,1,,,
+Primary metal manufacturing,2,,,
+Nonferrous metal (except aluminum) production and processing,1,,,
+"Copper rolling, drawing, extruding, and alloying",1,,,
+"Copper rolling, drawing, extruding, and alloying",1,,,
+Foundries,1,,,
+Nonferrous metal foundries,1,,,
+Nonferrous metal die-casting foundries,1,,,
+Fabricated metal product manufacturing,12,,,
+Forging and stamping,1,,,
+Forging and stamping,1,,,
+Iron and steel forging,1,,,
+Spring and wire product manufacturing,1,,,
+Spring and wire product manufacturing,1,,,
+Other fabricated wire product manufacturing,1,,,
+"Machine shops; turned product; and screw, nut, and bolt manufacturing",6,,,
+Machine shops,5,,,
+Machine shops,5,,,
+"Turned product and screw, nut, and bolt manufacturing",1,,,
+Precision turned product manufacturing,1,,,
+"Coating, engraving, heat treating, and allied activities",3,,,
+"Coating, engraving, heat treating, and allied activities",3,,,
+Metal heat treating,1,,,
+"Electroplating, plating, polishing, anodizing, and coloring",2,,,
+Other fabricated metal product manufacturing,1,,,
+Metal valve manufacturing,1,,,
+Fluid power valve and hose fitting manufacturing,1,,,
+Machinery manufacturing,3,,,
+Industrial machinery manufacturing,1,,,
+Industrial machinery manufacturing,1,,,
+Other industrial machinery manufacturing,1,,,
+"Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing",1,,,
+"Ventilation, heating, air-conditioning, and commercial refrigeration equipment manufacturing",1,,,
+Air-conditioning and warm air heating equipment and commercial and industrial refrigeration equipment manufacturing,1,,,
+Metalworking machinery manufacturing,1,,,
+Metalworking machinery manufacturing,1,,,
+"Special die and tool, die set, jig, and fixture manufacturing",1,,,
+Computer and electronic product manufacturing,1,,,
+Semiconductor and other electronic component manufacturing,1,,,
+Semiconductor and other electronic component manufacturing,1,,,
+"Capacitor, resistor, coil, transformer, and other inductor manufacturing",1,,,
+Transportation equipment manufacturing,1,,,
+Aerospace product and parts manufacturing,1,,,
+Aerospace product and parts manufacturing,1,,,
+Other aircraft parts and auxiliary equipment manufacturing,1,,,
+Furniture and related product manufacturing,1,,,
+Household and institutional furniture and kitchen cabinet manufacturing,1,,,
+Wood kitchen cabinet and countertop manufacturing,1,,,
+Wood kitchen cabinet and countertop manufacturing,1,,,
+Wholesale trade,16,,,
+"Merchant wholesalers, durable goods",10,,,
+Motor vehicle and motor vehicle parts and supplies merchant wholesalers,1,,,
+Tire and tube merchant wholesalers,1,,,
+Tire and tube merchant wholesalers,1,,,
+Professional and commercial equipment and supplies merchant wholesalers,1,,,
+"Medical, dental, and hospital equipment and supplies merchant wholesalers",1,,,
+"Medical, dental, and hospital equipment and supplies merchant wholesalers",1,,,
+Metal and mineral (except petroleum) merchant wholesalers,1,,,
+Metal service centers and other metal merchant wholesalers,1,,,
+Metal service centers and other metal merchant wholesalers,1,,,
+"Hardware, plumbing and heating equipment and supplies merchant wholesalers",1,,,
+Hardware merchant wholesalers,1,,,
+Hardware merchant wholesalers,1,,,
+"Machinery, equipment, and supplies merchant wholesalers",4,,,
+Construction and mining (except oil well) machinery and equipment merchant wholesalers,2,,,
+Construction and mining (except oil well) machinery and equipment merchant wholesalers,2,,,
+Farm and garden machinery and equipment merchant wholesalers,1,,,
+Farm and garden machinery and equipment merchant wholesalers,1,,,
+Industrial machinery and equipment merchant wholesalers,1,,,
+Industrial machinery and equipment merchant wholesalers,1,,,
+Miscellaneous durable goods merchant wholesalers,2,,,
+Recyclable material merchant wholesalers,2,,,
+Recyclable material merchant wholesalers,2,,,
+"Merchant wholesalers, nondurable goods",4,,,
+Grocery and related product merchant wholesalers,1,,,
+Confectionery merchant wholesalers,1,,,
+Confectionery merchant wholesalers,1,,,
+Chemical and allied products merchant wholesalers,2,,,
+Plastics materials and basic forms and shapes merchant wholesalers,2,,,
+Plastics materials and basic forms and shapes merchant wholesalers,2,,,
+"Beer, wine, and distilled alcoholic beverage merchant wholesalers",1,,,
+Beer and ale merchant wholesalers,1,,,
+Beer and ale merchant wholesalers,1,,,
+Wholesale electronic markets and agents and brokers,2,,,
+Wholesale electronic markets and agents and brokers,2,,,
+Wholesale trade agents and brokers,2,,,
+Wholesale trade agents and brokers,2,,,
+Retail trade,80,,,
+Motor vehicle and parts dealers,19,,,
+Automobile dealers,6,,,
+New car dealers,4,,,
+New car dealers,4,,,
+Used car dealers,2,,,
+Used car dealers,2,,,
+Other motor vehicle dealers,4,,,
+Recreational vehicle dealers,2,,,
+Recreational vehicle dealers,2,,,
+"Motorcycle, boat, and other motor vehicle dealers",2,,,
+"Motorcycle, ATV, and all other motor vehicle dealers",2,,,
+"Automotive parts, accessories, and tire stores",9,,,
+Automotive parts and accessories stores,3,,,
+Automotive parts and accessories stores,3,,,
+Tire dealers,6,,,
+Tire dealers,6,,,
+Electronics and appliance stores,1,,,
+Electronics and appliance stores,1,,,
+Electronics and appliance stores,1,,,
+Electronics stores,1,,,
+Building material and garden equipment and supplies dealers,12,,,
+Building material and supplies dealers,9,,,
+Home centers,1,,,
+Home centers,1,,,
+Hardware stores,1,,,
+Hardware stores,1,,,
+Other building material dealers,7,,,
+Other building material dealers,7,,,
+Lawn and garden equipment and supplies stores,3,,,
+"Nursery, garden center, and farm supply stores",3,,,
+"Nursery, garden center, and farm supply stores",3,,,
+Food and beverage stores,8,,,
+Grocery stores,4,,,
+Supermarkets and other grocery (except convenience) stores,4,,,
+Supermarkets and other grocery (except convenience) stores,4,,,
+Specialty food stores,1,,,
+Meat markets,1,,,
+Meat markets,1,,,
+"Beer, wine, and liquor stores",3,,,
+"Beer, wine, and liquor stores",3,,,
+"Beer, wine, and liquor stores",3,,,
+Health and personal care stores,8,,,
+Health and personal care stores,8,,,
+Pharmacies and drug stores,4,,,
+Pharmacies and drug stores,4,,,
+Other health and personal care stores,4,,,
+Food (health) supplement stores,1,,,
+All other health and personal care stores,3,,,
+Gasoline stations,14,,,
+Gasoline stations,14,,,
+Gasoline stations with convenience stores,11,,,
+Gasoline stations with convenience stores,11,,,
+Other gasoline stations,3,,,
+Other gasoline stations,3,,,
+Clothing and clothing accessories stores,1,,,
+Shoe stores,1,,,
+Shoe stores,1,,,
+Shoe stores,1,,,
+General merchandise stores,4,,,
+Department stores,1,,,
+Department stores,1,,,
+Discount department stores,1,,,
+Other general merchandise stores,3,,,
+All other general merchandise stores,3,,,
+All other general merchandise stores,3,,,
+Miscellaneous store retailers,8,,,
+Florists,2,,,
+Florists,2,,,
+Florists,2,,,
+Used merchandise stores,2,,,
+Used merchandise stores,2,,,
+Used merchandise stores,2,,,
+Other miscellaneous store retailers,4,,,
+Pet and pet supplies stores,1,,,
+Pet and pet supplies stores,1,,,
+Art dealers,1,,,
+Art dealers,1,,,
+All other miscellaneous store retailers,2,,,
+All other miscellaneous store retailers (except tobacco stores),2,,,
+Nonstore retailers,5,,,
+Electronic shopping and mail-order houses,1,,,
+Electronic shopping and mail-order houses,1,,,
+Mail-order houses,1,,,
+Direct selling establishments,4,,,
+Fuel dealers,2,,,
+Fuel dealers,2,,,
+Other direct selling establishments,2,,,
+Other direct selling establishments,2,,,
+Transportation and warehousing,18,,,
+Truck transportation,13,,,
+General freight trucking,4,,,
+"General freight trucking, local",1,,,
+"General freight trucking, local",1,,,
+"General freight trucking, long-distance",3,,,
+"General freight trucking, long-distance, truckload",3,,,
+Specialized freight trucking,9,,,
+"Specialized freight (except used goods) trucking, local",5,,,
+"Specialized freight (except used goods) trucking, local",5,,,
+"Specialized freight (except used goods) trucking, long-distance",4,,,
+"Specialized freight (except used goods) trucking, long-distance",4,,,
+Transit and ground passenger transportation,2,,,
+Other transit and ground passenger transportation,2,,,
+Other transit and ground passenger transportation,2,,,
+Special needs transportation,2,,,
+Support activities for transportation,1,,,
+Support activities for road transportation,1,,,
+Motor vehicle towing,1,,,
+Motor vehicle towing,1,,,
+Warehousing and storage,2,,,
+Warehousing and storage,2,,,
+General warehousing and storage,1,,,
+General warehousing and storage,1,,,
+Other warehousing and storage,1,,,
+Other warehousing and storage,1,,,
+Information,4,,,
+Publishing industries (except internet),1,,,
+"Newspaper, periodical, book, and directory publishers",1,,,
+Newspaper publishers,1,,,
+Newspaper publishers,1,,,
+Telecommunications,2,,,
+Wired telecommunications carriers,2,,,
+Wired telecommunications carriers,2,,,
+Wired telecommunications carriers,2,,,
+"Data processing, hosting, and related services",1,,,
+"Data processing, hosting, and related services",1,,,
+"Data processing, hosting, and related services",1,,,
+"Data processing, hosting, and related services",1,,,
+Finance and insurance,24,,,
+Credit intermediation and related activities,11,,,
+Depository credit intermediation,8,,,
+Commercial banking,8,,,
+Commercial banking,8,,,
+Activities related to credit intermediation,3,,,
+"Financial transactions processing, reserve, and clearinghouse activities",1,,,
+"Financial transactions processing, reserve, and clearinghouse activities",1,,,
+Other activities related to credit intermediation,2,,,
+Other activities related to credit intermediation,2,,,
+"Securities, commodity contracts, and other financial investments and related activities",3,,,
+Securities and commodity contracts intermediation and brokerage,2,,,
+Securities brokerage,2,,,
+Securities brokerage,2,,,
+Other financial investment activities,1,,,
+All other financial investment activities,1,,,
+"Trust, fiduciary, and custody activities",1,,,
+Insurance carriers and related activities,9,,,
+"Agencies, brokerages, and other insurance related activities",9,,,
+Insurance agencies and brokerages,9,,,
+Insurance agencies and brokerages,9,,,
+"Funds, trusts, and other financial vehicles",1,,,
+Other investment pools and funds,1,,,
+Other financial vehicles,1,,,
+Other financial vehicles,1,,,
+Real estate and rental and leasing,20,,,
+Real estate,11,,,
+Lessors of real estate,6,,,
+Lessors of residential buildings and dwellings,6,,,
+Lessors of residential buildings and dwellings,6,,,
+Offices of real estate agents and brokers,3,,,
+Offices of real estate agents and brokers,3,,,
+Offices of real estate agents and brokers,3,,,
+Activities related to real estate,2,,,
+Offices of real estate appraisers,1,,,
+Offices of real estate appraisers,1,,,
+Other activities related to real estate,1,,,
+Other activities related to real estate,1,,,
+Rental and leasing services,9,,,
+Consumer goods rental,8,,,
+Video tape and disc rental,1,,,
+Video tape and disc rental,1,,,
+Other consumer goods rental,7,,,
+Recreational goods rental,6,,,
+All other consumer goods rental,1,,,
+General rental centers,1,,,
+General rental centers,1,,,
+General rental centers,1,,,
+"Professional, scientific, and technical services",27,,,
+"Professional, scientific, and technical services",27,,,
+Legal services,13,,,
+Offices of lawyers,10,,,
+Offices of lawyers,10,,,
+Other legal services,3,,,
+Title abstract and settlement offices,2,,,
+All other legal services,1,,,
+"Accounting, tax preparation, bookkeeping, and payroll services",3,,,
+"Accounting, tax preparation, bookkeeping, and payroll services",3,,,
+Offices of certified public accountants,1,,,
+Tax preparation services,2,,,
+"Architectural, engineering, and related services",1,,,
+Surveying and mapping (except geophysical) services,1,,,
+Surveying and mapping (except geophysical) services,1,,,
+Computer systems design and related services,1,,,
+Computer systems design and related services,1,,,
+Computer systems design services,1,,,
+"Management, scientific, and technical consulting services",3,,,
+Management consulting services,1,,,
+Marketing consulting services,1,,,
+Other scientific and technical consulting services,2,,,
+Other scientific and technical consulting services,2,,,
+"Advertising, public relations, and related services",1,,,
+Outdoor advertising,1,,,
+Outdoor advertising,1,,,
+"Other professional, scientific, and technical services",5,,,
+Marketing research and public opinion polling,1,,,
+Marketing research and public opinion polling,1,,,
+Veterinary services,3,,,
+Veterinary services,3,,,
+"All other professional, scientific, and technical services",1,,,
+"All other professional, scientific, and technical services",1,,,
+Management of companies and enterprises,5,,,
+Management of companies and enterprises,5,,,
+Management of companies and enterprises,5,,,
+Management of companies and enterprises,5,,,
+Offices of bank holding companies,1,,,
+"Corporate, subsidiary, and regional managing offices",4,,,
+Administrative and support and waste management and remediation services,21,,,
+Administrative and support services,19,,,
+Travel arrangement and reservation services,1,,,
+Other travel arrangement and reservation services,1,,,
+Convention and visitors bureaus,1,,,
+Services to buildings and dwellings,15,,,
+Janitorial services,3,,,
+Janitorial services,3,,,
+Landscaping services,12,,,
+Landscaping services,12,,,
+Other support services,3,,,
+All other support services,3,,,
+All other support services,3,,,
+Waste management and remediation services,2,,,
+Waste treatment and disposal,1,,,
+Waste treatment and disposal,1,,,
+Solid waste landfill,1,,,
+Remediation and other waste management services,1,,,
+All other waste management services,1,,,
+Septic tank and related services,1,,,
+Educational services,1,,,
+Educational services,1,,,
+Technical and trade schools,1,,,
+Technical and trade schools,1,,,
+Other technical and trade schools,1,,,
+Health care and social assistance,86,,,
+Ambulatory health care services,27,,,
+Offices of physicians,7,,,
+Offices of physicians,7,,,
+Offices of physicians (except mental health specialists),7,,,
+Offices of dentists,3,,,
+Offices of dentists,3,,,
+Offices of dentists,3,,,
+Offices of other health practitioners,8,,,
+Offices of chiropractors,6,,,
+Offices of chiropractors,6,,,
+Offices of optometrists,1,,,
+Offices of optometrists,1,,,
+"Offices of physical, occupational and speech therapists, and audiologists",1,,,
+"Offices of physical, occupational and speech therapists, and audiologists",1,,,
+Outpatient care centers,7,,,
+Family planning centers,1,,,
+Family planning centers,1,,,
+Outpatient mental health and substance abuse centers,2,,,
+Outpatient mental health and substance abuse centers,2,,,
+Other outpatient care centers,4,,,
+Kidney dialysis centers,1,,,
+Freestanding ambulatory surgical and emergency centers,1,,,
+All other outpatient care centers,2,,,
+Medical and diagnostic laboratories,1,,,
+Medical and diagnostic laboratories,1,,,
+Diagnostic imaging centers,1,,,
+Home health care services,1,,,
+Home health care services,1,,,
+Home health care services,1,,,
+Hospitals,1,,,
+General medical and surgical hospitals,1,,,
+General medical and surgical hospitals,1,,,
+General medical and surgical hospitals,1,,,
+Nursing and residential care facilities,10,,,
+Nursing care facilities (skilled nursing facilities),6,,,
+Nursing care facilities (skilled nursing facilities),6,,,
+Nursing care facilities (skilled nursing facilities),6,,,
+Continuing care retirement communities and assisted living facilities for the elderly,4,,,
+Continuing care retirement communities and assisted living facilities for the elderly,4,,,
+Continuing care retirement communities,1,,,
+Assisted living facilities for the elderly,3,,,
+Social assistance,48,,,
+Individual and family services,39,,,
+Child and youth services,1,,,
+Child and youth services,1,,,
+Services for the elderly and persons with disabilities,32,,,
+Services for the elderly and persons with disabilities,32,,,
+Other individual and family services,6,,,
+Other individual and family services,6,,,
+"Community food and housing, and emergency and other relief services",2,,,
+Community food services,1,,,
+Community food services,1,,,
+Emergency and other relief services,1,,,
+Emergency and other relief services,1,,,
+Child day care services,7,,,
+Child day care services,7,,,
+Child day care services,7,,,
+"Arts, entertainment, and recreation",8,,,
+"Performing arts, spectator sports, and related industries",2,,,
+"Promoters of performing arts, sports, and similar events",1,,,
+"Promoters of performing arts, sports, and similar events without facilities",1,,,
+"Promoters of performing arts, sports, and similar events without facilities",1,,,
+"Independent artists, writers, and performers",1,,,
+"Independent artists, writers, and performers",1,,,
+"Independent artists, writers, and performers",1,,,
+"Amusement, gambling, and recreation industries",6,,,
+Other amusement and recreation industries,6,,,
+Golf courses and country clubs,1,,,
+Golf courses and country clubs,1,,,
+Fitness and recreational sports centers,2,,,
+Fitness and recreational sports centers,2,,,
+Bowling centers,1,,,
+Bowling centers,1,,,
+All other amusement and recreation industries,2,,,
+All other amusement and recreation industries,2,,,
+Accommodation and food services,58,,,
+Accommodation,17,,,
+Traveler accommodation,9,,,
+Hotels (except casino hotels) and motels,6,,,
+Hotels (except casino hotels) and motels,6,,,
+Other traveler accommodation,3,,,
+All other traveler accommodation,3,,,
+RV (recreational vehicle) parks and recreational camps,7,,,
+RV (recreational vehicle) parks and recreational camps,7,,,
+RV (recreational vehicle) parks and campgrounds,5,,,
+Recreational and vacation camps (except campgrounds),2,,,
+Rooming and boarding houses,1,,,
+Rooming and boarding houses,1,,,
+Rooming and boarding houses,1,,,
+Food services and drinking places,41,,,
+Special food services,3,,,
+Food service contractors,3,,,
+Food service contractors,3,,,
+Drinking places (alcoholic beverages),3,,,
+Drinking places (alcoholic beverages),3,,,
+Drinking places (alcoholic beverages),3,,,
+Restaurants and other eating places,35,,,
+Restaurants and other eating places,35,,,
+Full-service restaurants,21,,,
+Limited-service restaurants,11,,,
+Snack and nonalcoholic beverage bars,3,,,
+Other services (except public administration),48,,,
+Repair and maintenance,17,,,
+Automotive repair and maintenance,13,,,
+Automotive mechanical and electrical repair and maintenance,5,,,
+General automotive repair,4,,,
+Automotive exhaust system repair,1,,,
+"Automotive body, paint, interior, and glass repair",6,,,
+"Automotive body, paint, and interior repair and maintenance",6,,,
+Other automotive repair and maintenance,2,,,
+Car washes,2,,,
+Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,3,,,
+Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,3,,,
+Commercial and industrial machinery and equipment (except automotive and electronic) repair and maintenance,3,,,
+Personal and household goods repair and maintenance,1,,,
+Home and garden equipment and appliance repair and maintenance,1,,,
+Appliance repair and maintenance,1,,,
+Personal and laundry services,5,,,
+Personal care services,1,,,
+"Hair, nail, and skin care services",1,,,
+Beauty salons,1,,,
+Death care services,4,,,
+Funeral homes and funeral services,3,,,
+Funeral homes and funeral services,3,,,
+Cemeteries and crematories,1,,,
+Cemeteries and crematories,1,,,
+"Religious, grantmaking, civic, professional, and similar organizations",26,,,
+Religious organizations,23,,,
+Religious organizations,23,,,
+Religious organizations,23,,,
+Civic and social organizations,2,,,
+Civic and social organizations,2,,,
+Civic and social organizations,2,,,
+"Business, professional, labor, political, and similar organizations",1,,,
+"Other similar organizations (except business, professional, labor, and political organizations)",1,,,
+"Other similar organizations (except business, professional, labor, and political organizations)",1,,,
+Industries not classified,4,,,
