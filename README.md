@@ -1,3 +1,3 @@
 srdee.github.io
 ===============
-Various projects. 
+Various projects, mostly unfinished. 
