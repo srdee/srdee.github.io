@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Production Assignment 6 - Stella Dee</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default">
+    </script>
+    <script>
+      let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: {
+      lat: 42.390857498024445,
+      lng: -72.52767826560311
+    },
+    zoom: 15,
+  });
+
+
+  new google.maps.Marker({
+    position: {
+      lat: 42.38961684094646,
+      lng: -72.52644899773875
+    },
+    map,
+    title: "Campus Pond",
+  });
+
+  new google.maps.Marker({
+    position: {
+      lat: 42.38978763761067,
+      lng: -72.52825739772047
+    },
+    map,
+    title: "Du Bois Library",
+  });
+
+  new google.maps.Marker({
+    position: {
+      lat: 42.390857498024445,
+      lng: -72.52767826560311
+    },
+    map,
+    title: "Student Union",
+  });
+
+  new google.maps.Marker({
+    position: {
+      lat: 42.39283844690578,
+      lng: -72.53088618758493
+    },
+    map,
+    title: "Holdsworth Hall",
+  });
+
+  new google.maps.Marker({
+    position: {
+      lat: 42.38919345264753,
+      lng: -72.5230648660975
+    },
+    map,
+    title: "Permaculture Garden",
+  });
+
+}
+    </script>
+<style>
+  /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+</style>
+  </head>
+
+  <body>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly&channel=2" async>
+      
+
+    </script>
+  </body>
+
+</html>
