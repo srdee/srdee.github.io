@@ -1,0 +1,86 @@
+---
+title: "Frequentist Concepts"
+author: "Stella Dee"
+date: "2022-10-18"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Q1
+What is the probability of observing a count of exactly 3 successes in a binomial distribution with parameters n = 4 and p = 0.75? 
+```{r q1}
+dbinom(x=3, size =4, prob=.75)
+```
+=42.2%
+
+## Q2
+What is the probability of observing a count of 3 successes or fewer in a binomial distribution with parameters n = 4 and p = 0.75? 
+
+```{r q2}
+pbinom(q=3, size=4, prob=.75)
+```
+=68.4%
+
+## Q3
+What is the probability of observing more than 3 successes in a binomial distribution with parameters n = 5 and p = 0.75? 
+
+```{r q3}
+1-pbinom(q=3, size=5, prob=.75)
+```
+=36.7%
+
+## Q4
+What is the probability of observing a value of less than 1.2 from a normally-distributed population with mean = 2 and standard deviation = 2? 
+
+```{r q4}
+pnorm(1.2, mean=2, sd =2)
+```
+=34.5%
+
+## Q5
+What is the probability of observing a value of greater than 1.2 from a normally-distributed population with mean = 2 and standard deviation = 2?
+
+```{r q5}
+1- pnorm(1.2, mean=2, sd =2)
+```
+=65.5%
+
+## Q6
+What is the probability of observing a value between 1.2 and 3.2 from a normally-distributed population with mean = 2 and standard deviation = 2? 
+
+```{r q6}
+pnorm(3.2, mean=2, sd =2)-pnorm(1.2, mean=2, sd =2)
+```
+=38.1%
+
+## Q7
+Describe how the shape of the histogram changes as you continue to press the sample button:
+
+The shape of the histogram looks more and more like the graph of the distribution above--the line formed by the peaks of the histogram bars becomes smoother and smoother and more and more predictable. 
+
+## Q8
+Describe how the shape of the histogram changes as you continue to press the sample button:
+
+The histogram is immediately more skewed than the prior histogram and lacks the long tail present in the graph above, even with more and more samples taken. 
+
+## Q9, 10, 11
+Describe how the shape of the histogram changes as you continue to press the sample button. Why is there such a drastic change in the shape of the sampling distribution when you change the sample size from 1 to 2? What are the two main factors that determine the width of the sampling distribution of the mean?
+
+The shape of the histogram gets more and more clustered around the distribution mean as I continue to press the sample button (Q9). The change in the shape of the sampling distribution when the sample size changes from 1 to 2 is so extreme because means can be calculated from a sample size two whereas with sample size one there is no meaningful mean--it's just the value of the sample (Q10). The two main factors that determine the width of the sampling distribution of the mean is the sample size and the number of draws (calculated sample means); according to the central limit theorem, the higher these numbers are the closer the resulting histogram will be to a normal distribution (Q11). 
+
+## Q12
+How many 3-character words are possible?
+25^3^ or 15625 words
+
+
+## Q13
+How many books would the Library contain if you added one additional position to the book size? Express your answer in terms of B:
+
+B*25 i.e. 25^1312000+1^ books
+
+
+
+

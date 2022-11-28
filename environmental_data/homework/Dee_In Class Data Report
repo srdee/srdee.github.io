@@ -1,0 +1,16 @@
+R Code:
+
+#Read in Files
+dat_catrate <- read.csv(here("data","catrate.csv"))
+dat_delomys <-read.csv(here("data","delomys.csv"))
+dat_rope <- read.csv(here("data", "rope.csv"))
+
+#Examine the data
+head(dat_catrate)
+head(dat_delomys)
+head(dat_rope)
+
+#Load dyplyr package to simplify checking for numeric data
+select_if(dat_catrate, is.numeric)
+select_if(dat_delomys, is.numeric)
+select_if(dat_rope, is.numeric)

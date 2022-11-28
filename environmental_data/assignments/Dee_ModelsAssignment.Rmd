@@ -1,0 +1,127 @@
+---
+title: "Dee_ModelsAssignment"
+author: "Stella Dee"
+date: "2022-11-03"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+###  Q1: Create a histogram of the salamander reproduction catastrophic rates.
+
+```{r salcathist}
+require("here")
+catrate <- read.csv(here("data","catrate.csv"))
+#Build histogram
+hist(catrate$cat.rate, xlab="Catastrophe Rate", main="Histogram of Catastrophe Rates")
+
+```
+
+###  Q2 : Conduct a Shapiro-Wilk test of normality of the salamander catastrophic rates. Report the p-value and show the R-code you used to conduct the test.
+
+```{r q2}
+shapiro.test(catrate$cat.rate)
+```
+p-value = .04097
+
+### Q3: What is the null hypothesis for the Shapiro test?
+
+The null hypothesis is that "the data were sampled from a normally distributed population."
+
+###  Q4: Based on the Shapiro test results, is there strong evidence that the sample came from a non-normally-distributed population?
+
+Usually a p-value of less that .05 is considered strong evidence against the null hypothesis, so by that measure, with a p-value of .04, there would be evidence to reject the null hypothesis in this case and suggest that the sample came from a non-normally distributed population. However, it isn't the strongest of evidence; a p-value of less than .01 would provide a more substantial reason to reject the null hypothesis. 
+
+### Q5: Show the code you used to conduct the t-test.
+
+```{r}
+t.test(catrate$cat.rate, mu=2/7)
+```
+
+### Q6: State the null hypothesis of the test, in plain nontechnical English.
+
+The null hypothesis would be that the catastrophic rate is not different from the late-filling rate. 
+
+### Q7: Is this a one- or two-tailed test?
+
+This is a two-tailed test by default. 
+
+### Q8: What is the p-value from your t-test? Interpret the p-value as a false-positive rate using nontechnical English that a non-scientist would understand.
+
+The p-value is .01193. The false positive rate is the likelihood that you reject the null hypothesis in error. 
+
+### Q9: What is the confidence interval for the difference between the null hypothesis and alternative hypothesis means? Did it include zero?
+
+The confidence interval is from .352625 to .7261295, and no, it does not include zero. 
+
+### Q10: Considering the results from your t-test, did you conclude that there was strong evidence to reject the null hypothesis?
+   
+Yes, a p-value of .01193 is quite low and provides good evidence to reject the null hypothesis. 
+      
+      
+### Q11: Show the code you used to conduct the test.
+```{r}
+wilcox.test(catrate$cat.rate, mu = 2 / 7)
+```
+      
+### Q12: Compare the p-value with the p-value you got from the t-test.
+The p-value from the Wilcox test is .006275, so quite a bit lower than the p-value of .01193 from the t-test. 
+
+### Q13: Considering the results from your rank sum test, did you conclude that there was strong evidence to reject the null hypothesis?
+A p-value of .006275 is quite low and provides strong evidence to reject the null hypothesis; it is much lower than .05 and even .01. 
+
+### Q14: Compare the overall conclusions you could draw from the results of the two tests.
+
+The Wilcox test provided stronger evidence to reject the null hypothesis that there is no difference between catastrophic rate and late-filling rate. 
+
+### Q15: Considering the numerical and graphical data exploration, which test do you think was more appropriate for these data?
+
+In the original test for normality, the p-value was only around .04. The t-test assumes a normal distribution, so if we reject the original null hypothesis (thereby assuming the distribution is not normal), the t-test would not be appropriate. The Wilcox test would probably be more appropriate since the data is probably not normally distributed, doubly so since the dataset is also not very large (only 14 samples.)
+
+### Q16: Show the R-code you used to conduct tests of normality for the flipper lengths of Chinstrap and Adelie penguins.
+
+```{r}
+require(palmerpenguins)
+dat_adelie = subset(penguins, species == "Adelie")
+dat_chinstrap = subset(penguins, species == "Chinstrap")
+dat_gentoo = subset(penguins, species == "Gentoo")
+
+shapiro.test(dat_adelie$flipper_length_mm)
+shapiro.test(dat_chinstrap$flipper_length_mm)
+```
+
+### Q17: Interpret the test results. Do you conclude that the flipper lengths are normally-distributed for each species? Make sure your answers make reference to the test output.
+
+The p-value for the Adelie penguin flipper length Shapiro test is .72 and the p-value for the Chinstrap penguin flipper length Shapiro length is .8106. Both of these are quite high, well above .05, which means I would fail to reject the null hypothesis. In other words, these tests provide good evidence that both flipper length distributions are normal. 
+
+### Q18: Save your figure to a file and include it in your report. 
+   
+
+```{r}
+ pdf("penguinplots.pdf")
+ layout_mat <- matrix(c(1,2), ncol=2)
+ layout(layout_mat, respect = TRUE)
+ hist(dat_adelie$flipper_length_mm, xlab="Flipper Length (mm)", main="Histogram of Adelie Penguin Flipper Lengths", cex.main=.7, cex.lab=.6, cex.axis=.5)
+hist(dat_chinstrap$flipper_length_mm, xlab="Flipper Length (mm)", main="Histogram of Chinstrap Penguin Flipper Length", cex.main=.7,cex.lab=.6, cex.axis=.5)
+dev.off()
+```
+
+
+### Q19: State the alternative hypothesis of the test, in plain nontechnical English.
+
+The alternative hypothesis is that Adelie and Chinstrap penguins have different flipper lengths. 
+      
+### Q20: Include the code you used to conduct the t-test.
+```{r}
+t.test(dat_adelie$flipper_length_mm,dat_chinstrap$flipper_length_mm)
+```
+
+
+
+
+
+
+
+

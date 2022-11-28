@@ -1,0 +1,77 @@
+---
+title: "Data Exploration Assignment"
+author: "Stella Dee"
+date: "2022-10-06"
+output: html_document
+---
+
+# Bird Plot Habitat Data {.tabset}
+
+## Q1-6. Histograms
+
+Q1. Histograms:
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+require(here)
+dat_habitat <- read.csv(here("data","hab.sta.csv"))
+```
+
+```{r histogram_no_code, echo=FALSE}
+
+line_point_slope = function(x, x1, y1, slope)
+{
+  get_y_intercept = 
+    function(x1, y1, slope) 
+      return(-(x1 * slope) + y1)
+  
+  linear = 
+    function(x, yint, slope) 
+      return(yint + x * slope)
+  
+  return(linear(x, get_y_intercept(x1, y1, slope), slope))
+}
+
+```
+```{r multi_panel_scat, echo = FALSE, fig.width = 7, fig.height = 10}
+par(mfrow = c(3, 1))
+elev <- hist(dat_habitat$elev, main = "Histogram of sampling site elevation",xlab="Elevation (m)", col="lightblue")
+slope <- hist(dat_habitat$slope, main = "Histogram of sampling site slope",xlab="Slope (%) ", breaks = 20, xlim = c(0,120), col="pink")
+aspect <- hist(dat_habitat$aspect, main = "Histogram of sampling site aspect",xlab="Aspect (degrees)", breaks = 4, xlim=c(0,400),col="lavender")
+
+```
+
+
+Interpretive Questions: 
+
+Q2. The most sampling sites are clustered at a range of 300-450m above sea level. There are more sampling sites at higher elevations, because there is a relatively long “tail” of sampling sites over 450m in elevation, while there are relatively few sampling sites less than 200m in elevation. The distribution appears to be uneven. 
+
+Q3. The units are %. A 100% slope would be completely vertical, a 0% slope would be completely flat, and a 50% slope would be at a 45-degree angle. Slopes greater than 100% (of which there are several) would signify rocky overhangs. 
+
+Q4. Most sample sites have some amount of slope; they are mostly not flat. Based solely on the histogram, there appear to be slightly more shallower slopes of less than 50% compared to steeper slopes of greater than 50%, with an abrupt decline in the number of plots with slope greater than 80%. This makes intuitive sense, because it would require fairly technical equipment to sample sites of extremely high slope, as well as lead to (not insurmountable) sampling mensuration difficulties if sample plots are meant to have a consistent area. 
+
+Q5. Aspect is the position of the sample site site slope relative to the directions of the compass. It is measured in degrees and goes from 0 to 360. North-facing is 0 degrees, east-facing would be 90 degrees, south-facing would be 180 degrees, and west-facing would be 270 degrees. 
+
+Q6. The aspect of the sampling sites appears to be relatively consistent. This was likely by design. There is no clear bias in the orientation of sampling sites; the histogram is relatively flat with only minor differences in the number of sampling sites.  
+
+## Q7-8. Scatterplots
+
+Q7. Scatterplots with linear models:
+
+```{r multi_panel_3, echo = FALSE, fig.width = 10, fig.height = 7}
+par(mfrow = c(1, 3))
+plot(dat_habitat$elev, dat_habitat$ba.tot, main = "Visually-estimated linear model for site elevation", xlab = "Elevation (m)", ylab ="Total basal area (m2/ha)", col=30)
+curve(line_point_slope(x, x1 = 85, y1 = 4, slope = 0.125), add = TRUE)
+plot(dat_habitat$slope, dat_habitat$ba.tot, main = "Visually-estimated linear model for site slope", xlab = "Slope (%)", ylab ="Total basal area (m2/ha)", col=570)
+curve(line_point_slope(x, x1 = 2, y1 = 0, slope = 0.83), add = TRUE)
+plot(dat_habitat$aspect, dat_habitat$ba.tot, main = "Visually-estimated linear model for site aspect", xlab = "Aspect (degrees)", ylab ="Total basal area (m2/ha)", col=413)
+curve(line_point_slope(x, x1 = 0, y1 = 32, slope = .06), add = TRUE)
+
+```
+
+Q8. For elevation, there appears to be a non-linear association between basal area and elevation, with more basal area present at middle elevations. The linear model does not seem to be a very good fit for this relationship. 
+
+For slope, there also appears to be a non-linear association between basal area and slope, with less basal area at very high percentages of slope. The linear model also does not seem to be a very good fit for this relationship. 
+
+For aspect, there appears to be the highest frequency of lower basal area at plots with aspect from 270-360, but otherwise no clear difference in basal area aside from a few outlying plots. Once again, the linear model is probably not ideal for capturing this relationship, although it is perhaps a better fit than for elevation or slope. 

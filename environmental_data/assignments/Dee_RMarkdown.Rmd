@@ -1,0 +1,28 @@
+---
+title: "R Markdown Documents - Part 1"
+subtitle: "Analysis of Environmental Data"
+author: "Stella Dee"
+date: "2022-09-13"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    theme: darkly
+---
+
+# Introduction
+
+My name is **Stella Rose Dee**. I grew up in St. Louis, Missouri. As an undergrad I studied archaeobotany and I have a masters of forestry. For the last five years I've been a practicing climbing arborist; this year I'm the ISA women's tree climbing champion of New England! I live with my three year old daughter, a wonderful partner, a cat and seven chickens. I'm a PhD student in *Environmental Conservation (Arboriculture)* interested in the mechanical and physiological effects of arboricultural pruning practices, including somatic memory in plants and the possible ability of pruning to prime for biotic stress.   
+
+# Concepts List
+
+1. Sampling. 
+2. Formatting things in R beautifully. 
+3. Dealing with messy data. 
+
+# Course List
+
+- Avian Biology
+- Luxe, Pouvoir, Savoir, Liberté
+- Songhay Oral Literature
+- Forest Health

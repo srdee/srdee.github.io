@@ -1,0 +1,12 @@
+---
+title: "Stella's Project Homepage"
+author: "Stella Dee"
+date: "2022-11-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Welcome to Stella's Class Page
