@@ -558,7 +558,21 @@ library(palmerpenguins)
 
 plot(x=ginkgos$max_depth, y=ginkgos$max_width, col=&quot;red&quot;,pch=9, cex=.75, main=&quot;Ginkgo Leaf Depth By Width&quot;, xlab=&quot;Max Depth (mm)&quot;, ylab=&quot;Max Width (mm)&quot;, xlim=c(19,95), ylim=c(19,130))
 
-#Create a histogram</code></pre>
+#Create a histogram:
+
+#breaks is used to specify the number of bins in which the data is presented
+
+hist(penguins$flipper_length_mm, xlab=&quot;Flipper Length (mm)&quot;, main=&quot;Histogram of Penguin Flipper Lengths&quot;, breaks=6)
+
+#Create boxplots using the ginkgo data:
+
+boxplot(ginkgos$petiole_length, main=&quot;Ginkgo Petiole Length&quot;, ylab=&quot;Petiole Length (mm)&quot;)
+
+#It is also possible to condition boxplots based on other data:
+
+boxplot(data=ginkgos, max_depth ~ seeds_present, ylab=&quot;Max Depth (mm)&quot;, xlab=&quot;Seeds Present&quot;, main=&quot;Ginkgo Leaf Depth from Trees \n with and without Seeds Found&quot;, cex=.5, ylim=c(20,100))
+
+#You can arrange multiple plots on a single page in R using the par() function:</code></pre>
 </div>
 <div id="distribution-functions" class="section level2">
 <h2>Distribution Functions</h2>

@@ -155,13 +155,42 @@ library(palmerpenguins)
 
 plot(x=ginkgos$max_depth, y=ginkgos$max_width, col="red",pch=9, cex=.75, main="Ginkgo Leaf Depth By Width", xlab="Max Depth (mm)", ylab="Max Width (mm)", xlim=c(19,95), ylim=c(19,130))
 
-#Create a histogram
+#Create a histogram:
 
 #breaks is used to specify the number of bins in which the data is presented
 
 hist(penguins$flipper_length_mm, xlab="Flipper Length (mm)", main="Histogram of Penguin Flipper Lengths", breaks=6)
 
+#Create boxplots using the ginkgo data:
+
+boxplot(ginkgos$petiole_length, main="Ginkgo Petiole Length", ylab="Petiole Length (mm)")
+
+#It is also possible to condition boxplots based on other data:
+
+boxplot(data=ginkgos, max_depth ~ seeds_present, ylab="Max Depth (mm)", xlab="Seeds Present", main="Ginkgo Leaf Depth from Trees \n with and without Seeds Found", cex=.5, ylim=c(20,100))
+
+#You can arrange multiple plots on a single page in R using the par() function to set rows and columns for display:
+
+par(mfrow=c(2,2))
+hist(penguins$flipper_length_mm, xlab="Flipper Length (mm)", main="Penguin Flipper Length", breaks=6)
+hist(penguins$bill_depth_mm, xlab="Bill Depth (mm)", main="Penguin Bill Depth", breaks=6)
+hist(penguins$bill_length_mm, xlab="Bill Length (mm)", main="Penguin Bill Length", breaks=6)
+hist(penguins$body_mass_g, xlab="Body Mass (g)", main="Penguin Body Mass", breaks=6)
 ```
 
-
 ## Distribution Functions
+
+```{r}
+dnorm()
+
+pnorm()
+
+dbinom()
+
+pbinom()
+
+qbinom()
+
+
+```
+
