@@ -14,7 +14,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ###Q1: Re-create the conditional boxplot of penguin body mass conditioned on sex and species. Include your boxplot as a figure in your report.
 
 ```{r}
-dev.off()
 require(palmerpenguins)
 par(mfrow = c(1,3)) 
 labels= c("female\nAdelie","male\nAdelie","female\nChinstrap","male\nChinstrap","female\nGentoo","male\nGentoo")

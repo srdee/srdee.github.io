@@ -1,0 +1,167 @@
+---
+title: "Final R Reference"
+author: "Stella Dee"
+date: "2022-11-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Reference Guide {.tabset .tabset-pills}
+
+
+## Loading Data and Packages
+
+The functions library() and require() can both be used to load packages that are already installed. However, require() returns a boolean, which can be handy when sharing code; if the user doesn't already have the package installed, require() can still allow functions to run and allow for clearer error messages. 
+```{r}
+#Use library to load penguin data
+
+library(palmerpenguins)
+
+#Use require for the here package: here() helps access files based off the base RProject directory. To use, list subfolders in quotes:
+
+require(here)
+
+#read.csv() reads in a csv file and stores it as a dataframe. 
+
+ginkgos = read.csv(here("data","ginkgo_data_2022.csv"))
+
+```
+
+## Data Structures
+
+The function c() combines or concatenates its arguments into a vector (a 1-dimensional data structure consisting of 1 or more elements).
+
+All of the elements must be of the same type, e.g. it's not possiblecan’t combine character and numeric types in the same call to c()
+
+Here’s two examples using numeric and character data types:
+
+```{r}
+## Create a vector of numbers:
+num_vec  = c(1, 4, 8, 9, 13)
+
+## Create a vector of characters:
+char_vec = c("a", "fish", "data is cool","cats","trees")
+
+## Typing the name of the vector into the console prints the contents
+num_vec
+
+## The print() function accomplishes the same task:
+print(char_vec)
+
+#length() gets the length of any R object for which it's been defined, returning an integer of length 1:
+
+length(char_vec)
+
+
+
+```
+
+matrix() creates a matrix in R, or can be used to transform data into a matrix. It can take a number of arguments including but not limited to data, nrow (number of rows), and ncol (number of columns).Here's how to turn the num_vec defined above into a matrix:
+
+```{r}
+#Turn the numerical vector above into a 5x1 matrix:
+
+matrix(num_vec, nrow=5, ncol=1)
+```
+
+A data frame is a data structure in R that requires column names, unique row names, and where the stored data can be numeric, facts, or characters. It is the most fundamental data structure in R. Columns should contain the same numbers of data. Below is an example to convert num_vec and char_vec into a data frame:
+```{r}
+#The data frame below combines the char_vec and num_vec into a data frame. Note that the names of the lists/vectors become the column names by default, and row names are a numerical ordering of the elements: 
+
+data.frame(char_vec, num_vec)
+
+#Let's switch to the ginkgos data frame to explore more data.frame properties
+
+#nrow() gives the number of rows, as an integer:
+
+nrow(ginkgos)
+
+#ncol() gives the number of columns, as an integer:
+
+ncol(ginkgos)
+
+#dim() gives the dimensions of the data.frame (or matrix or vector), returned as rows:
+dim(ginkgos)
+d <- dim(ginkgos)
+
+#To access just number of rows:
+d[1]
+```
+
+## Subsetting
+
+There are a variety of ways to subset data in R:
+
+```{r}
+#Subset the ginkgo data to just access the max_depth column, store as variable to not take up whole window:
+
+md <- ginkgos$max_depth
+
+#Show the head of this:
+head(md)
+
+#Subset just first row of ginkgo data using []:
+
+ginkgos[1, ]
+
+#Show data in row 2, column 3
+
+ginkgos[2,3]
+
+#Select data in 3rd column of ginkgo data (leaving row space blank allows all rows in the 3rd column):
+
+ginkgos[ ,3]
+
+#Use subset() to retrieve data for only Adelie penguins
+
+adelie <- subset(penguins, species =="Adelie")
+head(adelie)
+
+```
+
+## Numerical Data Exploration
+
+There are a number of methods in R that allow the user to quickly retrieve basic statistics concerning the data. 
+
+```{r}
+#Summary shows a range of statistics including counts, means, mins, maxes, and medians for each column of a dataframe:
+
+summary(penguins)
+
+#mean() can be used to calculate the mean of a particular dataframe column. na.rm=TRUE is used to remove empty cells
+
+mean(penguins$bill_depth_mm, na.rm=TRUE)
+
+#sd() is used to compute the standard deviation, or the amount of dispersion of the data. Lower standard deviation means values are clustered closer to the mean. 
+
+sd(penguins$bill_depth_mm, na.rm=TRUE)
+
+```
+
+## Graphical Data Exploration
+
+Base R provides a number of ways to make graphics, including scatterplots, histograms, and boxplots. 
+
+
+```{r}
+dev.off()
+ginkgos = read.csv(here("data","ginkgo_data_2022.csv"))
+library(palmerpenguins)
+
+#Create a scatterplot-pch refers to point type and cex scales the axes labels (in this case to 75% of default)
+
+plot(x=ginkgos$max_depth, y=ginkgos$max_width, col="red",pch=9, cex=.75, main="Ginkgo Leaf Depth By Width", xlab="Max Depth (mm)", ylab="Max Width (mm)", xlim=c(19,95), ylim=c(19,130))
+
+#Create a histogram
+
+#breaks is used to specify the number of bins in which the data is presented
+
+hist(penguins$flipper_length_mm, xlab="Flipper Length (mm)", main="Histogram of Penguin Flipper Lengths", breaks=6)
+
+```
+
+
+## Distribution Functions
