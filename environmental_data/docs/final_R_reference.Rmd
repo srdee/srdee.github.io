@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Loading Data and Packages
 
 The functions library() and require() can both be used to load packages that are already installed. However, require() returns a boolean, which can be handy when sharing code; if the user doesn't already have the package installed, require() can still allow functions to run and allow for clearer error messages. 
-```{r}
+```{r readingfiles}
 #Use library to load penguin data
 
 library(palmerpenguins)
@@ -38,7 +38,7 @@ All of the elements must be of the same type, e.g. it's not possiblecan’t comb
 
 Here’s two examples using numeric and character data types:
 
-```{r}
+```{r datastructures}
 ## Create a vector of numbers:
 num_vec  = c(1, 4, 8, 9, 13)
 
@@ -61,14 +61,14 @@ length(char_vec)
 
 matrix() creates a matrix in R, or can be used to transform data into a matrix. It can take a number of arguments including but not limited to data, nrow (number of rows), and ncol (number of columns).Here's how to turn the num_vec defined above into a matrix:
 
-```{r}
+```{r matrix}
 #Turn the numerical vector above into a 5x1 matrix:
 
 matrix(num_vec, nrow=5, ncol=1)
 ```
 
 A data frame is a data structure in R that requires column names, unique row names, and where the stored data can be numeric, facts, or characters. It is the most fundamental data structure in R. Columns should contain the same numbers of data. Below is an example to convert num_vec and char_vec into a data frame:
-```{r}
+```{r dataframe}
 #The data frame below combines the char_vec and num_vec into a data frame. Note that the names of the lists/vectors become the column names by default, and row names are a numerical ordering of the elements: 
 
 data.frame(char_vec, num_vec)
@@ -95,7 +95,7 @@ d[1]
 
 There are a variety of ways to subset data in R:
 
-```{r}
+```{r subsetting}
 #Subset the ginkgo data to just access the max_depth column, store as variable to not take up whole window:
 
 md <- ginkgos$max_depth
@@ -126,7 +126,7 @@ head(adelie)
 
 There are a number of methods in R that allow the user to quickly retrieve basic statistics concerning the data. 
 
-```{r}
+```{r numexploration}
 #Summary shows a range of statistics including counts, means, mins, maxes, and medians for each column of a dataframe:
 
 summary(penguins)
@@ -146,8 +146,7 @@ sd(penguins$bill_depth_mm, na.rm=TRUE)
 Base R provides a number of ways to make graphics, including scatterplots, histograms, and boxplots. 
 
 
-```{r}
-dev.off()
+```{r graphexploration}
 ginkgos = read.csv(here("data","ginkgo_data_2022.csv"))
 library(palmerpenguins)
 
@@ -181,15 +180,15 @@ hist(penguins$body_mass_g, xlab="Body Mass (g)", main="Penguin Body Mass", break
 ## Distribution Functions
 
 ```{r}
-dnorm()
+#dnorm()
 
-pnorm()
+#pnorm()
 
-dbinom()
+#dbinom()
 
-pbinom()
+#pbinom()
 
-qbinom()
+#qbinom()
 
 
 ```
