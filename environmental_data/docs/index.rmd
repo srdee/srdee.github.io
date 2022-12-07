@@ -12,3 +12,5 @@ knitr::opts_chunk$set(echo = TRUE)
 Welcome to Stella's Class Page
 
 [Final Project: R Reference Guide](final_R_reference.html)
+
+[Final Project: Data Analysis and Visualization](final_data_analysis.html)

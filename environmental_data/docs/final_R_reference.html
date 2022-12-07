@@ -541,7 +541,8 @@ sd(penguins$bill_depth_mm, na.rm=TRUE)</code></pre>
 <h2>Graphical Data Exploration</h2>
 <p>Base R provides a number of ways to make graphics, including
 scatterplots, histograms, and boxplots.</p>
-<pre class="r"><code>ginkgos = read.csv(here(&quot;data&quot;,&quot;ginkgo_data_2022.csv&quot;))
+<pre class="r"><code>require(here)
+ginkgos = read.csv(here(&quot;data&quot;,&quot;ginkgo_data_2022.csv&quot;))
 library(palmerpenguins)
 
 #Create a scatterplot-pch refers to point type and cex scales the axes labels (in this case to 75% of default)
@@ -573,9 +574,22 @@ hist(penguins$body_mass_g, xlab=&quot;Body Mass (g)&quot;, main=&quot;Penguin Bo
 </div>
 <div id="distribution-functions" class="section level2">
 <h2>Distribution Functions</h2>
-<pre class="r"><code>#dnorm()
+<pre class="r"><code>#calculate mean and standard deviation for sample data (penguin bill depth)
 
-#pnorm()
+m = mean(na.omit(penguins$bill_depth_mm))
+sd = sd(na.omit(penguins$bill_depth_mm))
+
+#dnorm() calculates the probability density of a single event, where the first argument is the event, the second the mean, and the third the standard deviation
+
+dnorm(14.5, mean=m, sd=sd)</code></pre>
+<pre><code>## [1] 0.08203888</code></pre>
+<pre class="r"><code>#this means we have a ~8.2% chance of the penguin having a bill depth of 14.5mm, assuming the data is normally distributed
+
+#pnorm() calculates the probability of observing the event or less of a certain value
+
+pnorm(14.5, mean=m, sd=sd)</code></pre>
+<pre><code>## [1] 0.08971616</code></pre>
+<pre class="r"><code>#this means we have a ~8.9% chance of observing a bill depth of 14.5mm or less, assuming a normal distribution
 
 #dbinom()
 

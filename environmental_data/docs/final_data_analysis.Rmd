@@ -1,0 +1,26 @@
+---
+title: "Final Data Analysis"
+author: "Stella Dee"
+date: "2022-12-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+```{r}
+require(here)
+
+delo = read.csv(here("data","delomys.csv"))
+
+summary(delo$body_mass)
+
+summary(delo$body_length)
+
+shapiro.test(delo$body_mass)
+
+shapiro.test(delo$body_length)
+```
+
