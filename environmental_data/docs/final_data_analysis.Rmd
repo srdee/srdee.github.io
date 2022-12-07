@@ -10,17 +10,150 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## R Markdown
-```{r}
+```{r include=FALSE}
 require(here)
 
+#read data
 delo = read.csv(here("data","delomys.csv"))
 
+#summarize data
 summary(delo$body_mass)
 
 summary(delo$body_length)
 
+#Shapiro test for normality 
 shapiro.test(delo$body_mass)
 
 shapiro.test(delo$body_length)
+
 ```
 
+```{r include=FALSE}
+#Plot data
+plot(x = delo$body_mass, y = delo$body_length, main = "Relationship of Delomys Physical Metrics", xlab = "Body Length", ylab = "Body Mass (g)")
+```
+
+```{r include=FALSE}
+hist(delo$body_mass, main = "Delomys Body Mass", xlab = "Body Mass (g)", breaks = 10)
+```
+
+```{r include=FALSE}
+hist(delo$body_length, main = "Delomys Body Length", xlab = "Body Length", breaks = 7)
+```
+
+```{r include=FALSE}
+boxplot(body_mass ~ binomial, data = delo, main = "Delomys Body Length by Species", xlab = "Species", ylab = "Body Mass (g)")
+```
+
+```{r include=FALSE}
+boxplot(body_mass ~ sex, data = delo, main = "Delomys Body Length by Sex", xlab = "Sex", ylab = "Body Mass (g)")
+```
+
+```{r include=FALSE}
+
+boxplot(body_mass ~ sex + binomial, data = delo, xlab = "Species by Sex", ylab = "Body Mass (g)")
+```
+
+#### Q1: 
+
+The relationship between body mass and length appears fairly linear, with a very slight logarithmic curve. 
+
+#### Q2: 
+
+The histograms do not appear to be normally distributed. Body length is extremely skewed. Body mass appears to be somewhat more normal, but still not completely normal. We care whether or not the data are normally distributed because this influences what types of models we can fit to them and what assumptions we can make about them, although many of these assumptions have to do with the residuals after a model has been fit rather than the values themselves. 
+
+#### Q3: 
+
+Both of the p-values from the Shapiro tests are extremely small (less than .00005). Given that the null hypothesis of the Shapiro test is that the data are normally distributed, this p-value of well-less than .05 supports rejecting the null hypothesis and concluding that the data are not normally distributed. As with the visual observation of the histograms, the p-value for body length is even smaller than the p-value for body mass, confirming that the there is even more evidence for non-normality with body length compared to body mass (the same conclusion as visual observation).
+
+#### Q4: 
+
+When looking just at species, dorsalis appears to have slightly larger average mass than sublineatus. When looking at the boxplot conditioned on sex alone, males appear to have slightly larger body mass than females. Looking at both together, dorsalis females appear to have a slightly larger average body mass than sublineatus males, in addition to the prior two patterns. However, in all boxplots there is overlap in the interquartile range, so I would not feel confident making claims about statistical significance of difference from the boxplots alone. 
+
+```{r include=FALSE}
+
+fit1 = lm(delo$body_length ~ delo$body_mass, data = delo)
+fit2 = lm(delo$body_mass ~ delo$sex, data = delo)
+fit3 = lm(delo$body_mass ~ delo$binomial, data = delo)
+fit4 = lm(delo$body_mass ~ delo$sex + delo$binomial, data = delo)
+fit5 = lm(delo$body_mass ~ delo$sex * delo$binomial, data = delo)
+
+```
+
+```{r include=FALSE}
+par(mfrow=c(3,2))
+hist(residuals(fit1))
+hist(residuals(fit2))
+hist(residuals(fit3))
+hist(residuals(fit4))
+hist(residuals(fit5))
+```
+```{r include=FALSE}
+shapiro.test(residuals(fit1))
+shapiro.test(residuals(fit2))
+shapiro.test(residuals(fit3))
+shapiro.test(residuals(fit4))
+shapiro.test(residuals(fit5))
+```
+
+
+#### Q5: 
+
+From the numerical diagnostics, it's very clear that there is not evidence for normal residuals. However, from the histograms this is less clear. Fit1 has a graph that clearly is not normal; however, the others do appear to perhaps be normal on first glance. With the numeric exploration, extremely low p-values for all residual suggest that none are in face normal.  
+
+
+#### Q6: 
+
+No, violations of the normality assumption are not equally severe for all models. As is suggested graphically, the strongest evidence for non-normal residuals exists for fit1. Fit 2 has the largest p-value, although it is still well below .05. 
+
+```{r include=FALSE}
+summary(fit1)
+summary(fit2)
+summary(fit3)
+summary(fit4)
+summary(fit5)
+```
+
+#### Q7: 
+The magnitude of the mass/length relationship is 0.87550. Mass increases by 0.87550 for every increase of 1 in the length parameter. 
+
+#### Q8: 
+
+The expected body length of an animal that weighs 100g is 76.12466 + 0.87550 * 100 or 163.6747 (mm?).
+
+#### Q9: 
+
+The modeled/expected body length of an animal that weighs 0g is 76.12466 + 0.87550 * 0 or 76.12466 (mm?). However, this is physically unrealistic to expect length without mass, so this is where the scientist should realize it's a model and understand that this is not realistic. 
+
+```{r include=FALSE}
+
+knitr::kable(anova(fit1))
+knitr::kable(anova(fit2))
+knitr::kable(anova(fit3))
+knitr::kable(anova(fit4))
+knitr::kable(anova(fit5))
+
+
+```
+#### Q10: 
+
+The base level for sex is female. 
+
+#### Q11: 
+
+The base level for species (binomial) is Delomys dorsalis. 
+
+#### Q12: 
+
+Males are heavier. I know this because the magnitude of the relationship with females as base case is positive; there will always be a net increase (factor 2.7841) from the intercept. 
+
+#### Q13: 
+
+Dorsalis is heavier. I know this because the magnitude of the relationship with dorsalis as base case is negative; there will always be a net decrease (factor -7.6831) from the intercept.
+
+
+#### Q14: 
+#### Q15: 
+#### Q16: 
+#### Q17: 
+#### Q18: 
