@@ -153,7 +153,12 @@ Dorsalis is heavier. I know this because the magnitude of the relationship with 
 
 
 #### Q14: 
+
+Yes, sex and species are both significant predictors for body mass, both having relatively high F-values (and correspondingly low p-values). 
+
 #### Q15: 
+
+There is not a significant interaction between sex and species; the F-value is very low (and a correspondingly higher p-value). 
 #### Q16: 
 #### Q17: 
 #### Q18: 
