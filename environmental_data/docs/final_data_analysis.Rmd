@@ -159,6 +159,24 @@ Yes, sex and species are both significant predictors for body mass, both having 
 #### Q15: 
 
 There is not a significant interaction between sex and species; the F-value is very low (and a correspondingly higher p-value). 
+
 #### Q16: 
+
+No, they are not very different; all p-values for main effects are below .0002.
+
+```{r include=FALSE}
+AIC(fit1)
+AIC(fit2)
+AIC(fit3)
+AIC(fit4)
+AIC(fit5)
+```
+
+
 #### Q17: 
+
+Model 3 and Model 4 have the lowest AIC numbers (12896.73 and 12898.72).
+
 #### Q18: 
+
+I would choose Model 3 (the additive model that includes sex and species). Given that we found in Q15 that there was not a significant interaction between sex and species, the added factorial interaction between sex and species does not significantly add to to our understanding of the relationship or the prediction; it mostly adds unnecessary complexity. The simpler additive model that includes both sex and species is sufficient for the purpose of modeling body mass, and easier for the audience or scientific user to understand and implement. To this end, AIC() penalizes by parameter. 
