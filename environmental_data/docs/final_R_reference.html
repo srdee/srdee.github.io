@@ -574,6 +574,10 @@ hist(penguins$body_mass_g, xlab=&quot;Body Mass (g)&quot;, main=&quot;Penguin Bo
 </div>
 <div id="distribution-functions" class="section level2">
 <h2>Distribution Functions</h2>
+<p>dnorm() and pnorm() operate on normal distributions. Here I’m using
+them on the penguin data without first checking for normality; with
+‘real’ data, it would be important to first confirm a normal
+distribution.</p>
 <pre class="r"><code>#calculate mean and standard deviation for sample data (penguin bill depth)
 
 m = mean(na.omit(penguins$bill_depth_mm))
@@ -583,19 +587,31 @@ sd = sd(na.omit(penguins$bill_depth_mm))
 
 dnorm(14.5, mean=m, sd=sd)</code></pre>
 <pre><code>## [1] 0.08203888</code></pre>
-<pre class="r"><code>#this means we have a ~8.2% chance of the penguin having a bill depth of 14.5mm, assuming the data is normally distributed
+<pre class="r"><code>#this means we have a ~8.2% chance of the penguin having a bill depth of 14.5mm, assuming the data is normally distributed (this data may not be)
 
 #pnorm() calculates the probability of observing the event or less of a certain value
 
 pnorm(14.5, mean=m, sd=sd)</code></pre>
 <pre><code>## [1] 0.08971616</code></pre>
-<pre class="r"><code>#this means we have a ~8.9% chance of observing a bill depth of 14.5mm or less, assuming a normal distribution
+<pre class="r"><code>#this means we have a ~8.9% chance of observing a bill depth of 14.5mm or less, assuming a normal distribution</code></pre>
+<p>Binomial distribution functions include pbinom(), dbinom() and
+qbinom; they work with discrete distributions:</p>
+<pre class="r"><code>#Calculate probability of exactly 4 successes during 25 trials with the probability of success on each trial being .5:
 
-#dbinom()
+dbinom(4,size = 25,prob = .5)</code></pre>
+<pre><code>## [1] 0.0003769994</code></pre>
+<pre class="r"><code>#Calculate the probability of 4 successes or fewer during 25 trials iwth probability of success on each trial being .5:
 
-#pbinom()
+pbinom(4, size = 25, prob = .5) </code></pre>
+<pre><code>## [1] 0.0004552603</code></pre>
+<pre class="r"><code>#Calculate probability of greater than 4 successes with all parameters being equal to those above:
 
-#qbinom()</code></pre>
+1- pbinom(4, size = 25, prob = .5) </code></pre>
+<pre><code>## [1] 0.9995447</code></pre>
+<pre class="r"><code>#Calculate the 50th percentile of a binomial distribution for p=.4:
+
+qbinom(.4, size=25, prob=.5)</code></pre>
+<pre><code>## [1] 12</code></pre>
 </div>
 </div>
 
